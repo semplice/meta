@@ -1,0 +1,13 @@
+firmware-linux-nonfree
+firmware-atheros
+firmware-bnx2
+firmware-bnx2x
+firmware-intelwimax
+firmware-iwlwifi
+firmware-qlogic
+firmware-ralink
+firmware-realtek
+firmware-brcm80211
+firmware-netxen
+firmware-ipw2x00
+firmware-ivtv

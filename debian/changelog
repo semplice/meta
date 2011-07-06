@@ -1,0 +1,222 @@
+semplice-meta (1.12.3) emily; urgency=low
+
+  * nonfree: moved recommended packages to depends; we are now preseeding
+             to accept ivtv and ipw2x00 licenses.
+  * graphical: added wodim.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 06 Jul 2011 23:21:46 +0200
+
+semplice-meta (1.12.2) emily; urgency=low
+
+  * Added relevant files to build on amd64.
+  * debian/control: build on amd64 too
+  * openbox: added gvfs-backends, gvfs-fuse and gdebi
+  * graphical: added ntfs-3g
+  * base: added pciutils and usbutils
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 29 Jun 2011 12:38:21 +0200
+
+semplice-meta (1.12.1) emily; urgency=low
+
+  * nonfree-i386: added firmware-brcm80211 and firmware-netxen.
+  * graphical-i386: added alsa-base, alsa-utils, alsa-tools and linux-sound-base.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 24 Jun 2011 11:48:26 +0200
+
+semplice-meta (1.12.0) emily; urgency=low
+
+  * nonfree-i386: moved firmware-{ivtv,ipw2x00} to nonfree-recommends, as they
+    display the license agreement during install phase (and then can't be
+    installed while creating .iso)
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Tue, 21 Jun 2011 18:54:38 +0200
+
+semplice-meta (1.11.1) emily; urgency=low
+
+  * Bumped semplice_version to emily/alpha1.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 11 Jun 2011 17:17:48 +0200
+
+semplice-meta (1.11.0) emily; urgency=low
+
+  * openbox-i386: replaced semplice-default-settings with semplice-openbox-default-settings
+  * data/: added lsb-release file
+  * debian/system-base.install: ship data/lsb-release to /etc
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Mon, 06 Jun 2011 23:58:13 +0200
+
+semplice-meta (1.10.4) emily; urgency=low
+
+  * openbox-i386: added alan, alan-semplice-config
+  * debian/control: system-openbox depends on system-base-graphical instead of system-base
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 12 May 2011 22:29:18 +0200
+
+semplice-meta (1.10.3) emily; urgency=low
+
+  * Moved semplice-artwork from graphical to openbox.
+  * Removed semplice-archive-keyring from graphical; it should be on base.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sun, 24 Apr 2011 20:14:38 +0200
+
+semplice-meta (1.10.2) emily; urgency=low
+
+  * Removed libtdpkg from openbox.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 23 Apr 2011 11:30:23 +0200
+
+semplice-meta (1.10.1) emily; urgency=low
+
+  * Disable for now amd64 building, it makes some problem while importing it
+    into repository.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Tue, 19 Apr 2011 17:38:18 +0200
+
+semplice-meta (1.10.0) emily; urgency=low
+
+  * First release of the emily ("2.0") series.
+  * Renamed semplice-dedication to semplice-dedication.rocks (shipping it anyway)
+  * Chaged semplice_version to match "emily/pre" (pre = prerelease)
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 13 Jan 2011 17:30:18 +0100
+
+semplice-meta (1.0.0.1) rocks; urgency=low
+
+  * No libxapian15 in base.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 23 Dec 2010 17:47:25 +0100
+
+semplice-meta (1.0.0) rocks; urgency=low
+
+  * Modified files to match 1.0.0.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sun, 12 Dec 2010 20:03:03 +0100
+
+semplice-meta (0.19) rocks; urgency=low
+
+  * Modified files to match RC2.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Mon, 29 Nov 2010 18:40:24 +0100
+
+semplice-meta (0.18) rocks; urgency=low
+
+  * Depends on lxappearance instead of lxappearance2-git.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Tue, 16 Nov 2010 20:01:08 +0100
+
+semplice-meta (0.17) rocks; urgency=low
+
+  * Added libgnome2-perl, lsb-release and apt-xapian-index.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Mon, 15 Nov 2010 15:38:48 +0100
+
+semplice-meta (0.16) rocks; urgency=low
+
+  * Added usb-modeswitch, pm-utils, bluetooth, blueman and bluez-utils to openbox.
+  * Modified files to match RC1.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 11 Nov 2010 19:14:36 +0100
+
+semplice-meta (0.15) unstable; urgency=low
+
+  * Beta2.
+  * Added gksu to openbox.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 21 Oct 2010 19:24:28 +0200
+
+semplice-meta (0.14) unstable; urgency=low
+
+  * Changed gdm to gdm3.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 21 Oct 2010 16:08:38 +0200
+
+semplice-meta (0.13.1) unstable; urgency=low
+
+  * Corrected type gnome-mediaplayer -> gnome-mplayer
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Tue, 12 Oct 2010 17:54:46 +0200
+
+semplice-meta (0.13) unstable; urgency=low
+
+  * Replaced gxine with gnome-mplayer in openbox-i386.
+  * Added os-prober to base-i386.
+  * Moved grub from openbox to base. This should guarantee a bootable system (if a kernel is installed)
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Tue, 12 Oct 2010 17:27:48 +0200
+
+semplice-meta (0.12) unstable; urgency=low
+
+  * Added xfce4-power-manager to openbox-i386.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 07 Oct 2010 21:39:04 +0200
+
+semplice-meta (0.11) unstable; urgency=low
+
+  * Added desktop-file-utils and mirage.
+  * Removed ristretto.
+  * Changed data/semplice_version to rocks/Beta1.1 .
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Tue, 05 Oct 2010 15:42:55 +0200
+
+semplice-meta (0.10) unstable; urgency=low
+
+  * Added rsync and python-progressbar to openbox-i386.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 02 Oct 2010 18:13:44 +0200
+
+semplice-meta (0.9) unstable; urgency=low
+
+  * Periodical package rebuild.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Tue, 28 Sep 2010 16:27:55 +0200
+
+semplice-meta (0.8) unstable; urgency=low
+
+  * Added gnome-menus and volti in openbox-i386.
+  * Removed volwheel in openbox-i386.
+  * Conflict to semplice-desktop prior to 0.2-rocks2 in system-base.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 08 Sep 2010 23:17:54 +0200
+
+semplice-meta (0.7) unstable; urgency=low
+
+  * Added tint2 and python-gmenu to openbox-i386.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 02 Sep 2010 21:54:25 +0200
+
+semplice-meta (0.6) unstable; urgency=low
+
+  * Changed generate.py:
+    - Obtain ARCHS (ARCH) from dpkg-architecture.
+
+  * Changed packages:
+    - Removed fbpanel-legacy and firmware-linux-free from openbox-i386.
+    - Added fbpanel, fortune and conky to openbox-i386.
+    - Added firmware-linux-free in base-* (changed generate.py)
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 25 Aug 2010 16:51:42 +0200
+
+semplice-meta (0.5) unstable; urgency=low
+
+  * Added console-setup in system-base (changed generate.py).
+    Solves d-i install problems.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Mon, 23 Aug 2010 13:02:26 +0200
+
+semplice-meta (0.4.1) unstable; urgency=low
+
+  * Changed generate.py to exclude libept0 in system-base.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Mon, 16 Aug 2010 12:21:44 +0200
+
+semplice-meta (0.4) unstable; urgency=low
+
+  * Changed generate.py to list too sudo in system-base.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sun, 15 Aug 2010 23:59:48 +0200
+
+semplice-meta (0.3) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 13 Aug 2010 19:32:00 +0200

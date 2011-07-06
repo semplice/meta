@@ -1,0 +1,56 @@
+Source: semplice-meta
+Section: misc
+Priority: optional
+Maintainer: Eugenio (g7) <morarossa@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), germinate (>= 1.18), python, aptitude
+Standards-Version: 3.9.2
+Homepage: http://semplice-linux.sourceforge.net
+Vcs-Bzr: lp:~semplice-team/semplice/meta-emily
+Vcs-Browser: http://bazaar.launchpad.net/~semplice-team/semplice/meta-emily/files
+
+Package: system-base
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}
+Conflicts: semplice-desktop (<= 0.2-rocks2)
+Description: The Semplice Base System 
+ This package depends on all packages with priority "required"
+ and "important".
+ This metapackage ensures that you have installed a bootable
+ working command-line system.
+ .
+ Is recommended having this package installed.
+
+Package: system-base-graphical
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}, system-base
+Description: The Semplice Graphic Base System
+ This package depends on all packages useful to get a graphical system.
+ .
+ This package is used to ensure proper updates if the user decided to
+ not use the rolling release system.
+
+Package: system-openbox
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}, system-base-graphical
+Description: The Semplice Openbox System
+ This package depends on all packages that makes a Semplice Openbox System.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.
+
+Package: system-openbox-documentation
+Architecture: i386 amd64
+Description: The Semplice Openbox System Documentation
+ This package contains various documentation for the openbox
+ system that will be linked into new user's desktop.
+
+Package: system-nonfree
+Section: non-free/misc
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}
+#Recommends: ${germinate:Recommends}
+Description: The Semplice System - nonfree firmwares
+ This package depends on all non-free firmwares available in
+ Debian.
+ .
+ This package is a metapackage - feel free to remove it.

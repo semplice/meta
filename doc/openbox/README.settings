@@ -1,0 +1,30 @@
+CONFIGURE SEMPLICE
+------------------
+
+For sure you are now using the default desktop of Semplice, with two panels, a friendly filemanager in the desktop and other useful dropdown menus.
+Starting from rocks (1.0) Beta 1, the Semplice System now has a new mode, "advanced" or "geeky". It is less user friendly, but is powerful and cool.
+
+How enable this new mode?
+Very simple. Just open /home/<username>/.config/openbox/autostart.sh and find the following:
+
+---
+
+# Interface mode
+#  - Can be "default" (alias "simple"), "advanced" (alias "geeky")
+#  The system will fallback to "advanced" if unknown mode is selected.
+export desktop="default"
+
+---
+
+Just change the last line to 'export desktop="advanced"'. The result should be this:
+
+---
+
+# Interface mode
+#  - Can be "default" (alias "simple"), "advanced" (alias "geeky")
+#  The system will fallback to "advanced" if unknown mode is selected.
+export desktop="advanced"
+
+---
+
+Now, save, logout and login again. See the cool desktop? yay!
