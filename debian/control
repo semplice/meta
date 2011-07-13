@@ -52,5 +52,7 @@ Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - nonfree firmwares
  This package depends on all non-free firmwares available in
  Debian.
+ It provides a tool, /usr/bin/remove-nonfree.sh that can be
+ used to remove this package and all its dependencies.
  .
  This package is a metapackage - feel free to remove it.

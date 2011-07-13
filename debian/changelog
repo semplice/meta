@@ -1,3 +1,13 @@
+semplice-meta (1.12.4) emily; urgency=low
+
+  * nonfree-i386: added adobe-flashplugin
+  * graphical: removed semplice-utilities
+  * openbox: added semplice-utilities, removed gdebi
+  * system-nonfree: added new script remove_nonfree.sh and ship it in /usr/bin
+  * data/semplice_version: version is now emily/alpha2
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 13 Jul 2011 18:09:47 +0200
+
 semplice-meta (1.12.3) emily; urgency=low
 
   * nonfree: moved recommended packages to depends; we are now preseeding
