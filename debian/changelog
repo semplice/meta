@@ -4,8 +4,11 @@ semplice-meta (1.13.0) UNRELEASED; urgency=low
   * remove_nonfree.sh renamed to remove_meta.sh
   * remove_meta.sh: support the removing of these packages:
      system-nonfree system-openbox system-openbox-base system-base-graphical
+  * non-free/ renamed to tools/
+  * debian/: system-base.install: ship remove_meta.sh to /usr/bin
+  * debian/: removed system-nonfree.install
 
- -- Eugenio (g7) <morarossa@gmail.com>  Fri, 12 Aug 2011 11:15:38 +0200
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 12 Aug 2011 11:26:09 +0200
 
 semplice-meta (1.12.5) emily; urgency=low
 
