@@ -1,8 +1,11 @@
 semplice-meta (1.13.0) UNRELEASED; urgency=low
 
   * graphical: removed semplice-grub-config
+  * remove_nonfree.sh renamed to remove_meta.sh
+  * remove_meta.sh: support the removing of these packages:
+     system-nonfree system-openbox system-openbox-base system-base-graphical
 
- -- Eugenio (g7) <morarossa@gmail.com>  Fri, 12 Aug 2011 10:51:48 +0200
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 12 Aug 2011 11:15:38 +0200
 
 semplice-meta (1.12.5) emily; urgency=low
 
