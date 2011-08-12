@@ -18,7 +18,6 @@ pm-utils
 bluetooth
 bluez-utils
 apt-xapian-index
-semplice-grub-config
 alsa-base
 alsa-utils
 alsa-tools

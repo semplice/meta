@@ -1,3 +1,16 @@
+semplice-meta (1.13.0) UNRELEASED; urgency=low
+
+  * graphical: removed semplice-grub-config
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 12 Aug 2011 10:51:48 +0200
+
+semplice-meta (1.12.5) emily; urgency=low
+
+  * nonfree-amd64: added adobe-flashplugin
+  * nonfree: added adobe-flash-properties-gtk
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 14 Jul 2011 15:51:23 +0200
+
 semplice-meta (1.12.4) emily; urgency=low
 
   * nonfree-i386: added adobe-flashplugin
