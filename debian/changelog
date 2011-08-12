@@ -1,4 +1,4 @@
-semplice-meta (1.13.0) UNRELEASED; urgency=low
+semplice-meta (1.13.0) emily; urgency=low
 
   * graphical: removed semplice-grub-config
   * remove_nonfree.sh renamed to remove_meta.sh
@@ -8,7 +8,7 @@ semplice-meta (1.13.0) UNRELEASED; urgency=low
   * debian/: system-base.install: ship remove_meta.sh to /usr/bin
   * debian/: removed system-nonfree.install
 
- -- Eugenio (g7) <morarossa@gmail.com>  Fri, 12 Aug 2011 11:26:09 +0200
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 12 Aug 2011 11:47:01 +0200
 
 semplice-meta (1.12.5) emily; urgency=low
 

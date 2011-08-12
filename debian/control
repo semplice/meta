@@ -1,7 +1,7 @@
 Source: semplice-meta
 Section: misc
 Priority: optional
-Maintainer: Eugenio (g7) <morarossa@gmail.com>
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>>
 Build-Depends: debhelper (>= 7.0.50~), germinate (>= 1.18), python, aptitude
 Standards-Version: 3.9.2
 Homepage: http://semplice-linux.sourceforge.net
@@ -52,7 +52,5 @@ Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - nonfree firmwares
  This package depends on all non-free firmwares available in
  Debian.
- It provides a tool, /usr/bin/remove-nonfree.sh that can be
- used to remove this package and all its dependencies.
  .
  This package is a metapackage - feel free to remove it.
