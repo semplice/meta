@@ -1,3 +1,11 @@
+semplice-meta (1.13.1) emily; urgency=low
+
+  * openbox: removed gmpc and mpd; added exaile
+  * data/semplice_version: updated to beta1
+  * debian/control: fixed maintainer.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 25 Sep 2011 11:52:02 +0200
+
 semplice-meta (1.13.0) emily; urgency=low
 
   * graphical: removed semplice-grub-config

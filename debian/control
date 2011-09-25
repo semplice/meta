@@ -1,7 +1,7 @@
 Source: semplice-meta
 Section: misc
 Priority: optional
-Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>>
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Build-Depends: debhelper (>= 7.0.50~), germinate (>= 1.18), python, aptitude
 Standards-Version: 3.9.2
 Homepage: http://semplice-linux.sourceforge.net
