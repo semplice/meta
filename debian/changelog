@@ -1,3 +1,9 @@
+semplice-meta (1.13.2) emily; urgency=low
+
+  * data/: new dedication.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 08 Oct 2011 16:44:28 +0200
+
 semplice-meta (1.13.1) emily; urgency=low
 
   * openbox: removed gmpc and mpd; added exaile
