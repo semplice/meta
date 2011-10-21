@@ -1,3 +1,9 @@
+semplice-meta (1.13.3+b1) emily; urgency=low
+
+  * 1.13.3 rebuild to reflect buildd updates.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 21 Oct 2011 16:08:16 +0200
+
 semplice-meta (1.13.3) emily; urgency=low
 
   * data/semplice_version: beta1.1.
