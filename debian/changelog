@@ -1,3 +1,11 @@
+semplice-meta (2.10.0) pulse; urgency=low
+
+  * Initial pulse release.
+  * Ship emily beta1.1 dedication to /etc/semplice-dedication.emily.beta1
+  * Modified lsb_release and semplice_version accordingly.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 01 Nov 2011 12:04:15 +0100
+
 semplice-meta (1.13.3+b1) emily; urgency=low
 
   * 1.13.3 rebuild to reflect buildd updates.

@@ -5,8 +5,8 @@ Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Build-Depends: debhelper (>= 7.0.50~), germinate (>= 1.18), python, aptitude
 Standards-Version: 3.9.2
 Homepage: http://semplice-linux.sourceforge.net
-Vcs-Bzr: lp:~semplice-team/semplice/meta-emily
-Vcs-Browser: http://bazaar.launchpad.net/~semplice-team/semplice/meta-emily/files
+Vcs-Bzr: lp:~semplice-team/semplice/meta-pulse
+Vcs-Browser: http://bazaar.launchpad.net/~semplice-team/semplice/meta-pulse/files
 
 Package: system-base
 Architecture: i386 amd64
