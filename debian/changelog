@@ -1,3 +1,9 @@
+semplice-meta (2.10.0+b1) pulse; urgency=low
+
+  * 2.10.0 rebuild to reflect buildd updates.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 01 Nov 2011 16:53:13 +0100
+
 semplice-meta (2.10.0) pulse; urgency=low
 
   * Initial pulse release.
