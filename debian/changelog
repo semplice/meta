@@ -1,3 +1,11 @@
+semplice-meta (1.13.3.2) emily; urgency=low
+
+  * generate.py: New tuple ignore_list where store all
+    packages to be ignored;
+    ignore liblzma2, superseded by liblzma5.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 02 Dec 2011 21:24:20 +0100
+
 semplice-meta (1.13.3.1) emily; urgency=low
 
   * Due to some flaws into the buildd, rebuild with an
