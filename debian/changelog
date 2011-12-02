@@ -1,3 +1,10 @@
+semplice-meta (1.13.3.1) emily; urgency=low
+
+  * Due to some flaws into the buildd, rebuild with an
+    increased version.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 02 Dec 2011 19:46:39 +0100
+
 semplice-meta (1.13.3+b2) emily; urgency=low
 
   * 1.13.3 rebuild to reflect buildd updates.
