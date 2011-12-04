@@ -1,3 +1,9 @@
+semplice-meta (1.14.0) emily; urgency=low
+
+  * Added gsimplecal to openbox.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 04 Dec 2011 12:38:47 +0100
+
 semplice-meta (1.13.3.2) emily; urgency=low
 
   * generate.py: New tuple ignore_list where store all
