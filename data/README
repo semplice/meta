@@ -3,5 +3,6 @@ This directory cointains the files that will be in system-base, such as semplice
 Currently contains:
  * README - this file :)
  * semplice-dedication.rocks - signed dedication that showed up into the 1.0 release ("rocks"). Will be shipped anyway but not displayed.
+ * semplice-dedication.emily.beta1 - dedication that showed up into the 2.0 beta1(.1) release ("emily"). Will be shipped anyway but not displayed.
  * semplice_version - semplice release's version.
  * lsb-release: Semplice /etc/lsb-release file.

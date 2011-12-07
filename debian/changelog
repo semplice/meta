@@ -1,3 +1,11 @@
+semplice-meta (1.14.1) emily; urgency=low
+
+  * Ship the beta1 dedication in /etc/semplice-dedication.emily.beta1
+  * Adjusted semplice_version to match emily/RC1
+  * Adjusted lsb_release to match the 2.0.0 release
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 07 Dec 2011 16:02:22 +0100
+
 semplice-meta (1.14.0) emily; urgency=low
 
   * Added gsimplecal to openbox.
