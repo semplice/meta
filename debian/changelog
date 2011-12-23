@@ -1,3 +1,9 @@
+semplice-meta (1.99.0) emily; urgency=low
+
+  * graphical: removed numlockx; it does not behave well on notebooks.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 23 Dec 2011 12:39:32 +0100
+
 semplice-meta (1.14.2) emily; urgency=low
 
   * graphical: added numlockx.
