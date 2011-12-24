@@ -1,3 +1,10 @@
+semplice-meta (2.0.0) emily; urgency=low
+
+  * Adjusted semplice_version to match 2.0.0
+  * Happy release day everyone!
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 24 Dec 2011 10:50:08 +0100
+
 semplice-meta (1.99.0) emily; urgency=low
 
   * graphical: removed numlockx; it does not behave well on notebooks.
