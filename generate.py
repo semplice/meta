@@ -17,6 +17,8 @@
 
 import os, commands
 
+ignore_list = ("debian-multimedia-keyring", "libept0", "libxapian5", "liblzma2")
+
 path = os.getenv('PWD')
 if path == None: # needed for debian/rules
 	path = "."
@@ -41,7 +43,7 @@ for ARCH in ARCHS: # Now useless starting from 0.6 - to be changed later.
 		else:
 			pkg = col[3] + "\n"
 
-		if pkg == "debian-multimedia-keyring\n" or pkg == "libept0\n" or pkg == "libxapian15\n": # Avoid libept0 and libxapian15 in control.
+		if pkg.replace("\n","") in ignore_list:
 			print "pkg is %s, skipping." % (pkg)
 		elif pkg[:3] == "gcc":
 			# GCC packages will be wrote after the loop, the user needs only one gcc, no two or three.

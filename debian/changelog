@@ -1,3 +1,10 @@
+semplice-meta (2.10.1) pulse; urgency=low
+
+  * Merged with emily final.
+  * pulse development officially begins.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 25 Dec 2011 12:13:31 +0100
+
 semplice-meta (2.10.0+b1) pulse; urgency=low
 
   * 2.10.0 rebuild to reflect buildd updates.
@@ -11,6 +18,60 @@ semplice-meta (2.10.0) pulse; urgency=low
   * Modified lsb_release and semplice_version accordingly.
 
  -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 01 Nov 2011 12:04:15 +0100
+
+semplice-meta (2.0.0) emily; urgency=low
+
+  * Adjusted semplice_version to match 2.0.0
+  * Happy release day everyone!
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 24 Dec 2011 10:50:08 +0100
+
+semplice-meta (1.99.0) emily; urgency=low
+
+  * graphical: removed numlockx; it does not behave well on notebooks.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 23 Dec 2011 12:39:32 +0100
+
+semplice-meta (1.14.2) emily; urgency=low
+
+  * graphical: added numlockx.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 10 Dec 2011 16:36:26 +0100
+
+semplice-meta (1.14.1) emily; urgency=low
+
+  * Ship the beta1 dedication in /etc/semplice-dedication.emily.beta1
+  * Adjusted semplice_version to match emily/RC1
+  * Adjusted lsb_release to match the 2.0.0 release
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 07 Dec 2011 16:02:22 +0100
+
+semplice-meta (1.14.0) emily; urgency=low
+
+  * Added gsimplecal to openbox.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 04 Dec 2011 12:38:47 +0100
+
+semplice-meta (1.13.3.2) emily; urgency=low
+
+  * generate.py: New tuple ignore_list where store all
+    packages to be ignored;
+    ignore liblzma2, superseded by liblzma5.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 02 Dec 2011 21:24:20 +0100
+
+semplice-meta (1.13.3.1) emily; urgency=low
+
+  * Due to some flaws into the buildd, rebuild with an
+    increased version.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 02 Dec 2011 19:46:39 +0100
+
+semplice-meta (1.13.3+b2) emily; urgency=low
+
+  * 1.13.3 rebuild to reflect buildd updates.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 02 Dec 2011 19:28:05 +0100
 
 semplice-meta (1.13.3+b1) emily; urgency=low
 
