@@ -75,7 +75,8 @@ firmware-linux-free
 os-prober
 grub
 pciutils
-usbutils""" + "\n")
+usbutils
+semplice-apt-conf""" + "\n")
 	file.close()
 
 print "I: all done (hopefully)"

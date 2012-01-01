@@ -1,3 +1,10 @@
+semplice-meta (2.10.2) pulse; urgency=low
+
+  * Merged with emily 2.0.1~pre1.
+  * Added semplice-apt-conf to base.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 01 Jan 2012 12:56:00 +0100
+
 semplice-meta (2.10.1) pulse; urgency=low
 
   * Merged with emily final.
@@ -18,6 +25,12 @@ semplice-meta (2.10.0) pulse; urgency=low
   * Modified lsb_release and semplice_version accordingly.
 
  -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 01 Nov 2011 12:04:15 +0100
+
+semplice-meta (2.0.1~pre1) emily; urgency=low
+
+  * Added gstreamer to graphical (including the fluendo mp3 plugin).
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 01 Jan 2012 12:51:32 +0100
 
 semplice-meta (2.0.0) emily; urgency=low
 
