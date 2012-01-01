@@ -1,3 +1,9 @@
+semplice-meta (2.0.1~pre1) emily; urgency=low
+
+  * Added gstreamer to graphical (including the fluendo mp3 plugin).
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 01 Jan 2012 12:51:32 +0100
+
 semplice-meta (2.0.0) emily; urgency=low
 
   * Adjusted semplice_version to match 2.0.0
