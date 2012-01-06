@@ -1,3 +1,10 @@
+semplice-meta (2.10.3) pulse; urgency=low
+
+  * Added semplice-backup to openbox.
+  * Updated data/semplice_version to match alpha1.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 06 Jan 2012 15:53:13 +0100
+
 semplice-meta (2.10.2) pulse; urgency=low
 
   * Merged with emily 2.0.1~pre1.
