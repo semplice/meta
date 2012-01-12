@@ -1,3 +1,10 @@
+semplice-meta (2.10.4) pulse; urgency=low
+
+  * Removed fbpanel from openbox.
+  * Added xchat to openbox.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 12 Jan 2012 21:47:54 +0100
+
 semplice-meta (2.10.3) pulse; urgency=low
 
   * Added semplice-backup to openbox.

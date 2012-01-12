@@ -2,7 +2,6 @@ openbox
 volti
 notify-osd
 pcmanfm
-fbpanel
 tint2
 python-gmenu
 gnome-menus
@@ -40,6 +39,7 @@ chromium-browser
 claws-mail
 gftp
 pidgin
+xchat
 abiword
 gnumeric
 epdfview
