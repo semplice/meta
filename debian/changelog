@@ -1,3 +1,9 @@
+semplice-meta (2.10.5) pulse; urgency=low
+
+  * Alpha 1 release. 
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 19 Jan 2012 17:29:36 +0100
+
 semplice-meta (2.10.4) pulse; urgency=low
 
   * Removed fbpanel from openbox.
