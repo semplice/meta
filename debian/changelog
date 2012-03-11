@@ -1,3 +1,13 @@
+semplice-meta (2.11.0) pulse; urgency=low
+
+  * nonfree: added atmel-firmware, bluez-firmware, firmware-crystalhd,
+             firmware-libertas, firmware-myricom, linux-wlan-ng-firmware,
+             midisport-firmware and zd1211-firmware.
+  * graphical: added network-manager, modemmanager, mobile-broadband-provider-info.
+  * data/semplice-version: changed to pulse/alpha2.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 11 Mar 2012 14:28:10 +0100
+
 semplice-meta (2.10.6) pulse; urgency=low
 
   * Add python-xlib to openbox.
