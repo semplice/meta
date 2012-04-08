@@ -1,3 +1,9 @@
+semplice-meta (2.11.1) pulse; urgency=low
+
+  * openbox: replaced roxterm with roxterm-gtk2.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 08 Apr 2012 20:07:00 +0200
+
 semplice-meta (2.11.0) pulse; urgency=low
 
   * nonfree: added atmel-firmware, bluez-firmware, firmware-crystalhd,
