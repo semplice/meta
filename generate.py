@@ -17,7 +17,7 @@
 
 import os, commands
 
-ignore_list = ("debian-multimedia-keyring", "libept0", "libxapian5", "liblzma2")
+ignore_list = ("debian-multimedia-keyring", "libept0", "libept1", "libxapian5", "liblzma2")
 
 path = os.getenv('PWD')
 if path == None: # needed for debian/rules

@@ -1,3 +1,9 @@
+semplice-meta (2.11.2) pulse; urgency=low
+
+  * base: do not include libept1 anymore, superseded by libept1.4.12.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 20 Apr 2012 17:33:23 +0200
+
 semplice-meta (2.11.1) pulse; urgency=low
 
   * openbox: replaced roxterm with roxterm-gtk2.
