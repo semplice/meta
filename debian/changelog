@@ -1,3 +1,9 @@
+semplice-meta (2.11.3) pulse; urgency=low
+
+  * openbox: removed gdm3; added lightdm, lightdm-autologin and lightdm-gtk-greeter.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 29 Apr 2012 13:39:20 +0200
+
 semplice-meta (2.11.2) pulse; urgency=low
 
   * base: do not include libept1 anymore, superseded by libept1.4.12.

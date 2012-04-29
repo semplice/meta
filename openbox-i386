@@ -44,7 +44,9 @@ xchat
 abiword
 gnumeric
 epdfview
-gdm3
+lightdm
+lightdm-autologin
+lightdm-gtk-greeter
 system-config-printer
 hplip
 rsync
