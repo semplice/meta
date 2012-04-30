@@ -1,3 +1,9 @@
+semplice-meta (2.12.1) pulse; urgency=low
+
+  * openbox: added accountsservice.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 30 Apr 2012 18:38:41 +0200
+
 semplice-meta (2.12.0) pulse; urgency=low
 
   * base: added ssh.

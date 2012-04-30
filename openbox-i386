@@ -47,6 +47,7 @@ epdfview
 lightdm
 lightdm-autologin
 lightdm-gtk-greeter
+accountsservice
 system-config-printer
 hplip
 rsync
