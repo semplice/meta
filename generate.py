@@ -76,7 +76,8 @@ os-prober
 grub
 pciutils
 usbutils
-semplice-apt-conf""" + "\n")
+semplice-apt-conf
+ssh""" + "\n")
 	file.close()
 
 print "I: all done (hopefully)"

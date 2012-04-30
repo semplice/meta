@@ -1,3 +1,9 @@
+semplice-meta (2.12.0) pulse; urgency=low
+
+  * base: added ssh.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 30 Apr 2012 18:12:00 +0200
+
 semplice-meta (2.11.3) pulse; urgency=low
 
   * openbox: removed gdm3; added lightdm, lightdm-autologin and lightdm-gtk-greeter.
