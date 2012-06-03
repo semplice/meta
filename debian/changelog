@@ -1,3 +1,10 @@
+semplice-meta (2.13.1) pulse; urgency=low
+
+  * generate.py: install grub only on i386 and amd64.
+  * added armel support.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 03 Jun 2012 19:03:27 +0200
+
 semplice-meta (2.13.0) pulse; urgency=low
 
   * openbox: added uget.

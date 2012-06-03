@@ -57,6 +57,12 @@ for ARCH in ARCHS: # Now useless starting from 0.6 - to be changed later.
 
 	#file.write("!gawk" + "\n")
 	#file.write("mawk" + "\n")
+	
+	# Architecture-dependent packages
+	if ARCH in ("i386", "amd64"):
+		file.write("""grub-pc
+""")
+	
 	file.write("""sudo
 lsb-release
 coreutils
@@ -73,7 +79,6 @@ unrar-free
 console-setup
 firmware-linux-free
 os-prober
-grub
 pciutils
 usbutils
 semplice-apt-conf

@@ -9,7 +9,7 @@ Vcs-Bzr: lp:~semplice-team/semplice/meta-pulse
 Vcs-Browser: http://bazaar.launchpad.net/~semplice-team/semplice/meta-pulse/files
 
 Package: system-base
-Architecture: i386 amd64
+Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}
 Conflicts: semplice-desktop (<= 0.2-rocks2)
 Description: The Semplice Base System 
@@ -21,7 +21,7 @@ Description: The Semplice Base System
  Is recommended having this package installed.
 
 Package: system-base-graphical
-Architecture: i386 amd64
+Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}, system-base
 Description: The Semplice Graphic Base System
  This package depends on all packages useful to get a graphical system.
@@ -30,7 +30,7 @@ Description: The Semplice Graphic Base System
  not use the rolling release system.
 
 Package: system-openbox
-Architecture: i386 amd64
+Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}, system-base-graphical
 Description: The Semplice Openbox System
  This package depends on all packages that makes a Semplice Openbox System.
@@ -39,14 +39,14 @@ Description: The Semplice Openbox System
  use the rolling release system.
 
 Package: system-openbox-documentation
-Architecture: i386 amd64
+Architecture: i386 amd64 armel
 Description: The Semplice Openbox System Documentation
  This package contains various documentation for the openbox
  system that will be linked into new user's desktop.
 
 Package: system-nonfree
 Section: non-free/misc
-Architecture: i386 amd64
+Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}
 #Recommends: ${germinate:Recommends}
 Description: The Semplice System - nonfree firmwares
