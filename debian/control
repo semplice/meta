@@ -54,3 +54,14 @@ Description: The Semplice System - nonfree firmwares
  Debian.
  .
  This package is a metapackage - feel free to remove it.
+
+Package: system-raspberrypi
+Section: contrib/misc
+Architecture: armel
+Depends: ${misc:Depends}, ${germinate:Depends}
+Description: The Semplice System - Raspberry Pi support packages
+ This package depends on required packages (non-free and not)
+ required to succesfully run Semplice on a Raspberry Pi(TM)
+ board.
+ .
+ This package is a metapackage - feel free to remove it.

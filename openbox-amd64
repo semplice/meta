@@ -8,7 +8,6 @@ python-gmenu
 gnome-menus
 conky
 fortune
-cairo-compmgr
 nitrogen
 laiv-setup
 semplice-openbox-default-settings
@@ -36,7 +35,7 @@ xfce4-screenshooter
 mousepad
 gnome-mplayer
 exaile
-chromium-browser
+chromium
 claws-mail
 gftp
 pidgin

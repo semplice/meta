@@ -21,7 +21,6 @@ apt-xapian-index
 alsa-base
 alsa-utils
 alsa-tools
-linux-sound-base
 ntfs-3g
 wodim
 gstreamer0.10-nice

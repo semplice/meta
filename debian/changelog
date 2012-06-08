@@ -1,3 +1,16 @@
+semplice-meta (2.13.2) pulse; urgency=low
+
+  * Added system-raspberrypi package (armel), which depends on:
+    - firmware-raspberrypi
+    - videocore-libraries
+  * graphical: removed linux-sound-base, deprecated.
+  * openbox:
+    - removed cairo-compmgr,
+    - [i386,amd64] replaced chromium-browser with chromium,
+    - [armel] replaced chromium-browser with midori.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 08 Jun 2012 14:15:06 +0200
+
 semplice-meta (2.13.1) pulse; urgency=low
 
   * generate.py: install grub only on i386 and amd64.

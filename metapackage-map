@@ -2,3 +2,4 @@ base system-base
 graphical system-base-graphical
 openbox system-openbox
 nonfree system-nonfree
+raspberrypi system-raspberrypi
