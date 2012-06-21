@@ -1,3 +1,12 @@
+semplice-meta (2.13.3) pulse; urgency=low
+
+  * Added system-openbox-raspberrypi package (armel), which is openbox
+    without some packages useless (or heavy) on a Pi.
+  * openbox: removed lightdm-autologin (we do not need it anymore), added
+    lxappearance-obconf.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 21 Jun 2012 19:36:55 +0200
+
 semplice-meta (2.13.2) pulse; urgency=low
 
   * Added system-raspberrypi package (armel), which depends on:

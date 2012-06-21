@@ -19,6 +19,7 @@ gnome-disk-utility
 synaptic
 menu
 lxappearance
+lxappearance-obconf
 lxrandr
 xscreensaver
 xscreensaver-data
@@ -44,7 +45,6 @@ abiword
 gnumeric
 epdfview
 lightdm
-lightdm-autologin
 lightdm-gtk-greeter
 accountsservice
 system-config-printer

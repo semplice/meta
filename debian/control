@@ -65,3 +65,13 @@ Description: The Semplice System - Raspberry Pi support packages
  board.
  .
  This package is a metapackage - feel free to remove it.
+ 
+Package: system-openbox-raspberrypi
+Architecture: armel
+Depends: ${misc:Depends}, ${germinate:Depends}, system-base-graphical
+Description: The Semplice Openbox System for the Raspberry Pi
+ This package depends on all packages that makes a Semplice Openbox System on
+ a Raspberry Pi.
+ .
+ This package is used to ensure proper updates if the user decided to not
+ use the rolling release system.

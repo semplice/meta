@@ -3,3 +3,4 @@ graphical system-base-graphical
 openbox system-openbox
 nonfree system-nonfree
 raspberrypi system-raspberrypi
+openbox-raspberrypi system-openbox-raspberrypi
