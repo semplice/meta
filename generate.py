@@ -28,8 +28,7 @@ ARCHS = [commands.getoutput("dpkg-architecture -qDEB_HOST_ARCH")]
 print "I: started generate.py - pwd is %s" % (path)
 
 # Get package list via aptitude
-package_list = commands.getoutput("aptitude search ~prequired ~pimportant")
-package_list = package_list.split("\n")
+package_list = commands.getoutput('aptitude search "~pimportant (?not(?obsolete))" "~prequired (?not(?obsolete))"').split("\n")
 
 for ARCH in ARCHS: # Now useless starting from 0.6 - to be changed later.
 	file = open(path + "/base-" + ARCH,"w")
