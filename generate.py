@@ -37,6 +37,8 @@ for ARCH in ARCHS: # Now useless starting from 0.6 - to be changed later.
 	# Ok, so we have the package_list variable correctly declared. Now we should parse the lines and then the single packages. A 'for' loop really helps.
 	for line in package_list:
 		col = line.split(" ")
+		if col[0] == "c":
+			continue
 		if col[1] == "A":
 			pkg = col[2] + "\n"
 		else:

@@ -1,3 +1,9 @@
+semplice-meta (2.13.5) pulse; urgency=low
+
+  * generate.py: do not append packages which are marked by "c" on aptitude.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 21 Jun 2012 22:37:41 +0200
+
 semplice-meta (2.13.4) pulse; urgency=low
 
   * generate.py: do not search for obsolete packages.
