@@ -83,7 +83,8 @@ os-prober
 pciutils
 usbutils
 semplice-apt-conf
-ssh""" + "\n")
+ssh
+locales""" + "\n")
 	file.close()
 
 print "I: all done (hopefully)"

@@ -1,3 +1,10 @@
+semplice-meta (2.13.6) pulse; urgency=low
+
+  * openbox*: removed gpe-taskmanager and added lxtask.
+  * base: added locales.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 24 Jun 2012 16:29:19 +0200
+
 semplice-meta (2.13.5) pulse; urgency=low
 
   * generate.py: do not append packages which are marked by "c" on aptitude.

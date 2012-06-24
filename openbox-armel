@@ -13,7 +13,6 @@ laiv-setup
 semplice-openbox-default-settings
 semplice-artwork
 gnome-system-tools
-gpe-taskmanager
 network-manager-gnome
 gnome-disk-utility
 synaptic
@@ -21,6 +20,7 @@ menu
 lxappearance
 lxappearance-obconf
 lxrandr
+lxtask
 xscreensaver
 xscreensaver-data
 gmrun
