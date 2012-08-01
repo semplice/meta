@@ -1,3 +1,9 @@
+semplice-meta (2.13.7) pulse; urgency=low
+
+  * openbox*: replaced laiv-setup with keeptalking.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 02 Aug 2012 00:46:10 +0200
+
 semplice-meta (2.13.6) pulse; urgency=low
 
   * openbox*: removed gpe-taskmanager and added lxtask.

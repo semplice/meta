@@ -10,4 +10,4 @@ All scripts aren't in the standard distribution of metapackages, because they're
 useless in user's point of view.
 
 If you'are reading this from /usr/share/doc/system-*, you can get the source package from
-Bazaar: lp:~semplice-team/semplice/meta-emily
+Bazaar: lp:~semplice-team/semplice/meta-pulse
