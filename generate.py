@@ -60,9 +60,9 @@ for ARCH in ARCHS: # Now useless starting from 0.6 - to be changed later.
 	#file.write("mawk" + "\n")
 	
 	# Architecture-dependent packages
-	if ARCH in ("i386", "amd64"):
-		file.write("""grub-pc
-""")
+#	if ARCH in ("i386", "amd64"):
+#		file.write("""grub-pc
+#""")
 	
 	file.write("""sudo
 lsb-release
@@ -84,6 +84,7 @@ pciutils
 usbutils
 semplice-apt-conf
 ssh
+readahead-fedora
 locales""" + "\n")
 	file.close()
 
