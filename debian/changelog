@@ -1,3 +1,9 @@
+semplice-meta (2.13.9) pulse; urgency=low
+
+  * graphical: added printer-driver-all-enforce.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 18 Aug 2012 12:09:20 +0200
+
 semplice-meta (2.13.8) pulse; urgency=low
 
   * base: do not force grub-pc as the default boootloader. Otherwise not meta package
