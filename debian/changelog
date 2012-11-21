@@ -1,3 +1,12 @@
+semplice-meta (2.90.0) pulse; urgency=low
+
+  * openbox: replaced notify-osd with xfce4-notifyd;
+             removed semplice-backup.
+  * data/lsb_release: changed to match 3.0.0
+  * data/semplice_version: changed to match 3.0 RC1.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 21 Nov 2012 17:33:06 +0100
+
 semplice-meta (2.13.9) pulse; urgency=low
 
   * graphical: added printer-driver-all-enforce.

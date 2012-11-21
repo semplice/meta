@@ -1,7 +1,7 @@
 openbox
 volti
 python-xlib
-notify-osd
+xfce4-notifyd
 pcmanfm
 tint2
 python-gmenu
@@ -62,5 +62,4 @@ gvfs-backends
 gvfs-fuse
 semplice-utilities
 gsimplecal
-semplice-backup
 uget
