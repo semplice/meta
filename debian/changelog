@@ -1,3 +1,10 @@
+semplice-meta (3.0.0) pulse; urgency=low
+
+  * openbox*: added lxshortcut.
+  * FINAL!
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 20 Dec 2012 23:02:21 +0100
+
 semplice-meta (2.90.0) pulse; urgency=low
 
   * openbox: replaced notify-osd with xfce4-notifyd;
