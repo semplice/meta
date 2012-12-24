@@ -1,3 +1,9 @@
+semplice-meta (3.0.0.2) pulse; urgency=low
+
+  * graphical{i386,amd64}: removed virtualbox guest x11 drivers.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 24 Dec 2012 19:29:24 +0100
+
 semplice-meta (3.0.0.1) pulse; urgency=low
 
   * graphical{i386-amd64}: added virtualbox guest x11 drivers.
