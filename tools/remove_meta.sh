@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# remove-meta.sh: remove system-<arg> and all its dependencies from the system
+# remove-meta.sh: remove meta-<arg> and all its dependencies from the system
 # Copyright (C) 2011 Eugenio "g7" Paolantonio and the Semplice Team. All rights reserved.
 # The following code is released under the terms of the GNU GPL License, version 3 or later.
 #
@@ -22,7 +22,7 @@ verbose() {
 # Parse arguments
 for arg in $@; do
 	case $arg in
-		system-nonfree|system-openbox|system-openbox-base|system-base-graphical)
+		meta-nonfree|meta-openbox|meta-openbox-base|meta-base-graphical|meta-raspberrypi|meta-openbox-raspberrypi)
 			# Package.
 			pkg="$1"
 			;;
@@ -74,7 +74,7 @@ if [ "$UID" != "0" ]; then
 	error "You should be root to use $0."
 fi
 
-# Check if system-nonfree is installed...
+# Check if $pkg is installed...
 verbose "I: Checking if $pkg is installed..."
 output="`dpkg -l $pkg | tail -1`"
 if [ -z "$output" ] || [ "`echo $output | awk '{ print $1 }'`" != "ii" ]; then
@@ -82,7 +82,7 @@ if [ -z "$output" ] || [ "`echo $output | awk '{ print $1 }'`" != "ii" ]; then
 	error "$pkg not installed!"
 fi
 
-# Now retrieve system-nonfree dependencies
+# Now retrieve $pkg dependencies
 verbose "I: Retrieving $pkg dependencies..."
 depends="`dpkg -s $pkg | grep -w \"Depends:\"`"
 depends=${depends#"Depends:"} # Remove "Depends:"
@@ -106,16 +106,16 @@ if [ "$_DISPLAY" ]; then
 fi
 
 if [ -z "$_FORCE" ]; then
-	# Remove system-nonfree and its dependencies from apt
+	# Remove $pkg and its dependencies from apt
 	
 	verbose "I: Removing $pkg $depends (via APT)"
 	[ "$_NON_INTERACTIVE" ] && _CUSTOPTS="--yes" # Assume yes if non-interactive
 	apt-get remove $_CUSTOPTS $pkg $depends
-	[ "$?" != "0" ] && error "An error occoured while removing system-nonfree and its dependencies."
+	[ "$?" != "0" ] && error "An error occoured while removing $pkg and its dependencies."
 else
 	# Force mode, remove from dpkg 
 	
 	verbose "I: Removing $pkg $depends (via dpkg; --force all)"
 	dpkg --remove --force all $pkg $depends
-	[ "$?" != "0" ] && error "An error occoured while removing system-nonfree and its dependencies."
+	[ "$?" != "0" ] && error "An error occoured while removing $pkg and its dependencies."
 fi
