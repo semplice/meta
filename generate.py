@@ -85,7 +85,8 @@ usbutils
 semplice-apt-conf
 ssh
 readahead-fedora
-locales""" + "\n")
+locales
+eject""" + "\n")
 	file.close()
 
 print "I: all done (hopefully)"

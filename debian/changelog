@@ -1,3 +1,9 @@
+semplice-meta (3.0.0.4) pulse; urgency=low
+
+  * base: add eject.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 18 Jan 2013 13:00:43 +0100
+
 semplice-meta (3.0.0.3) pulse; urgency=low
 
   * Rebuild.
