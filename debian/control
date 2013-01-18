@@ -4,14 +4,14 @@ Priority: optional
 Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Build-Depends: debhelper (>= 7.0.50~), germinate (>= 1.18), python, aptitude
 Standards-Version: 3.9.2
-Homepage: http://semplice-linux.sourceforge.net
-Vcs-Bzr: lp:~semplice-team/semplice/meta-pulse
-Vcs-Browser: http://bazaar.launchpad.net/~semplice-team/semplice/meta-pulse/files
+Homepage: http://semplice-linux.org
+Vcs-Git: git://github.com/semplice/meta.git
+Vcs-Browser: https://github.com/semplice/meta
 
-Package: system-base
+Package: meta-base
 Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}
-Conflicts: semplice-desktop (<= 0.2-rocks2)
+Conflicts: semplice-desktop (<= 0.2-rocks2), system-base (< 4.0)
 Description: The Semplice Base System 
  This package depends on all packages with priority "required"
  and "important".
@@ -20,31 +20,49 @@ Description: The Semplice Base System
  .
  Is recommended having this package installed.
 
-Package: system-base-graphical
+Package: system-base
 Architecture: i386 amd64 armel
-Depends: ${misc:Depends}, ${germinate:Depends}, system-base
+Depends: meta-base
+Description: Dummy transitional package for meta-base
+ This package is a transitional package for meta-base.
+ .
+ You can safely remove it.
+
+Package: meta-base-graphical
+Architecture: i386 amd64 armel
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base
 Description: The Semplice Graphic Base System
  This package depends on all packages useful to get a graphical system.
  .
  This package is used to ensure proper updates if the user decided to
  not use the rolling release system.
 
-Package: system-openbox
+Package: system-base-graphical
 Architecture: i386 amd64 armel
-Depends: ${misc:Depends}, ${germinate:Depends}, system-base-graphical
+Depends: meta-base-graphical
+Description: Dummy transitional package for meta-base-graphical
+ This package is a transitional package for meta-base-graphical.
+ .
+ You can safely remove it.
+
+Package: meta-openbox
+Architecture: i386 amd64 armel
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-graphical
 Description: The Semplice Openbox System
  This package depends on all packages that makes a Semplice Openbox System.
  .
  This package is used to ensure proper updates if the user decided to not
  use the rolling release system.
 
-Package: system-openbox-documentation
+Package: system-openbox
 Architecture: i386 amd64 armel
-Description: The Semplice Openbox System Documentation
- This package contains various documentation for the openbox
- system that will be linked into new user's desktop.
+Depends: meta-openbox
+Description: Dummy transitional package for meta-openbox
+ This package is a transitional package for meta-openbox.
+ .
+ You can safely remove it.
 
-Package: system-nonfree
+Package: meta-nonfree
 Section: non-free/misc
 Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}
@@ -55,7 +73,16 @@ Description: The Semplice System - nonfree firmwares
  .
  This package is a metapackage - feel free to remove it.
 
-Package: system-raspberrypi
+Package: system-nonfree
+Section: non-free/misc
+Architecture: i386 amd64 armel
+Depends: meta-nonfree
+Description: Dummy transitional package for meta-nonfree
+ This package is a transitional package for meta-nonfree.
+ .
+ You can safely remove it.
+
+Package: meta-raspberrypi
 Section: contrib/misc
 Architecture: armel
 Depends: ${misc:Depends}, ${germinate:Depends}
@@ -65,13 +92,30 @@ Description: The Semplice System - Raspberry Pi support packages
  board.
  .
  This package is a metapackage - feel free to remove it.
- 
-Package: system-openbox-raspberrypi
+
+Package: system-raspberrypi
+Section: contrib/misc
 Architecture: armel
-Depends: ${misc:Depends}, ${germinate:Depends}, system-base-graphical
+Depends: meta-raspberrypi
+Description: Dummy transitional package for meta-raspberrypi
+ This package is a transitional package for meta-raspberrypi.
+ .
+ You can safely remove it.
+ 
+Package: meta-openbox-raspberrypi
+Architecture: armel
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-graphical
 Description: The Semplice Openbox System for the Raspberry Pi
  This package depends on all packages that makes a Semplice Openbox System on
  a Raspberry Pi.
  .
  This package is used to ensure proper updates if the user decided to not
  use the rolling release system.
+
+Package: system-openbox-raspberrypi
+Architecture: armel
+Depends: meta-openbox-raspberrypi
+Description: Dummy transitional package for meta-openbox-raspberrypi
+ This package is a transitional package for meta-openbox-raspberrypi.
+ .
+ You can safely remove it.
