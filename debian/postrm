@@ -1,0 +1,23 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+remove() {
+	# Restore the debian origin if we are going to break up things
+	if [ "`readlink /etc/dpkg/origins/default`" = "semplice" ]; then
+		ln -sf debian /etc/dpkg/origins/default
+	fi
+	
+	# Restore os-release
+	if [ -e "/etc/os-release.distrib" ]; then
+		rm -f "/etc/os-release" # that's our link!
+		dpkg-divert --rename --package meta-base --divert "/etc/os-release.distrib" --remove "/etc/os-release"
+	fi
+}
+
+case "$1" in
+	"remove")
+		remove
+		;;
+esac

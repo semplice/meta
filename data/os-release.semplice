@@ -1,0 +1,7 @@
+NAME=Semplice
+VERSION="4"
+ID=semplice
+VERSION_ID=4
+PRETTY_NAME="Semplice 4 (Atom Heart Mother)"
+HOME_URL="http://semplice-linux.org"
+BUG_REPORT_URL="https://github.com/semplice"

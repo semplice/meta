@@ -2,5 +2,6 @@ data/semplice-dedication.rocks /etc
 data/semplice-dedication.emily.beta1 /etc
 data/semplice_version /etc
 data/lsb-release /etc
+data/os-release.semplice /etc
 data/dpkg/origins/semplice /etc/dpkg/origins
 tools/remove_meta.sh /usr/bin

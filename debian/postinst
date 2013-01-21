@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+configure() {
+	# Mark ours the default origin
+	ln -sf semplice /etc/dpkg/origins/default
+	
+	# Divert os-release
+	if ! [ -e "/etc/os-release.distrib" ]; then
+		dpkg-divert --rename --package meta-base --divert "/etc/os-release.distrib" --add "/etc/os-release"
+		ln -s "/etc/os-release.semplice" "/etc/os-release"
+	fi
+}
+
+case "$1" in
+	"configure")
+		configure
+		;;
+esac
