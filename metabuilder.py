@@ -87,6 +87,8 @@ for item in os.listdir("src/"):
 		# If this is "base", we need to obtain a list of "required" and
 		# "important" packages. To do this, we use a custom method.
 		if item.replace(".%s" % ARCH,"") == "base":
+			if not os.path.exists("src/%s" % ARCH):
+				os.makedirs("src/%s" % ARCH)
 			base_list(open("src/%s/base.include" % ARCH, "w"))
 		
 		# Check in arch dirs if we need to further process this list
@@ -119,4 +121,6 @@ for item in os.listdir("src/"):
 									mainopen.write(line)
 						
 						mainopen.close()
+
+print("I: metabuilder.py: closing...")
 
