@@ -13,4 +13,4 @@
 	dh --with germinate $@ 
 
 override_dh_auto_configure:
-	python $(CURDIR)/generate.py
+	python $(CURDIR)/metabuilder.py
