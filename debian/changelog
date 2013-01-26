@@ -1,3 +1,18 @@
+semplice-meta (3.99.1) unstable; urgency=low
+
+  * Renamed every system-* package to meta-*.
+  * Dummy transitional packages have been created accordingly.
+  * Updated remove-meta.sh.
+  * Modified README.
+  * Added semplice dpkg origin.
+  * Added os-release and postinst and postrm scripts to handle it.
+  * Added a more clean and cool way to create package lists per-arch.
+  * metabuilder.py: ensure we make the arch directory when processing base.
+  * Removed old scripts.
+  * We are talking about Semplice 4 ;)
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 26 Jan 2013 18:36:05 +0100
+
 semplice-meta (3.0.0.4) pulse; urgency=low
 
   * base: add eject.
