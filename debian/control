@@ -119,3 +119,37 @@ Description: Dummy transitional package for meta-openbox-raspberrypi
  This package is a transitional package for meta-openbox-raspberrypi.
  .
  You can safely remove it.
+
+Package: meta-base-feature-bluetooth
+Architecture: i386 amd64 armel
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base
+Description: The Semplice System - Bluetooth feature
+ This metapackage ensures that the packages required to make bluetooth
+ work are installed.
+
+Package: meta-openbox-feature-bluetooth
+Architecture: i386 amd64 armel
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-feature-bluetooth
+Description: The Semplice System - Bluetooth feature (openbox)
+ This metapackage ensures that the packages required to manage bluetooth
+ into the openbox environment are installed.
+
+Package: meta-base-feature-printing
+Architecture: i386 amd64 armel
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base
+Description: The Semplice System - Printing feature
+ This metapackage ensures that the packages required to make printing
+ work are installed.
+
+Package: meta-openbox-feature-printing
+Architecture: i386 amd64 armel
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-feature-printing
+Description: The Semplice System - Printing feature (openbox)
+ This metapackage ensures that the packages required to manage printing
+ into the openbox environment are installed.
+
+Package: meta-openbox-feature-office
+Architecture: i386 amd64 armel
+Depends: ${misc:Depends}, ${germinate:Depends}
+Description: The Semplice System - Office feature (openbox)
+ This metapackage ensures that the office packages are installed.
