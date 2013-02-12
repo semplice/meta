@@ -4,7 +4,6 @@ openbox meta-openbox
 nonfree meta-nonfree
 raspberrypi meta-raspberrypi
 openbox-raspberrypi meta-openbox-raspberrypi
-
 base-feature-bluetooth meta-base-feature-bluetooth
 openbox-feature-bluetooth meta-openbox-feature-bluetooth
 base-feature-printing meta-base-feature-printing
