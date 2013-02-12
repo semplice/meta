@@ -1,3 +1,12 @@
+semplice-meta (3.99.2) unstable; urgency=low
+
+  * Added bluetooth, printing and office features (and removed package references from the appropiate files)
+  * Adjusted metapackage-map.
+  * Ensure the post{inst,rm} are shipped only on meta-base.
+  * openbox: replaced volti with volumeicon.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 12 Feb 2013 19:46:22 +0100
+
 semplice-meta (3.99.1) unstable; urgency=low
 
   * Renamed every system-* package to meta-*.
