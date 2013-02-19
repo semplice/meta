@@ -1,5 +1,6 @@
 openbox
-volumeicon
+volumeicon-alsa
+cymbaline
 python-xlib
 xfce4-notifyd
 pcmanfm
