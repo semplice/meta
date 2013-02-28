@@ -9,3 +9,4 @@ openbox-feature-bluetooth meta-openbox-feature-bluetooth
 base-feature-printing meta-base-feature-printing
 openbox-feature-printing meta-openbox-feature-printing
 openbox-feature-office meta-openbox-feature-office
+openbox-feature-composite meta-openbox-feature-composite

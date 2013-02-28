@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Build-Depends: debhelper (>= 7.0.50~), germinate (>= 1.18), python, aptitude
-Standards-Version: 3.9.2
+Standards-Version: 3.9.4
 Homepage: http://semplice-linux.org
 Vcs-Git: git://github.com/semplice/meta.git
 Vcs-Browser: https://github.com/semplice/meta
@@ -153,3 +153,9 @@ Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - Office feature (openbox)
  This metapackage ensures that the office packages are installed.
+
+Package: meta-openbox-feature-composite
+Architecture: i386 amd64 armel
+Depends: ${misc:Depends}, ${germinate:Depends}
+Description: The Semplice System - Composite feature (openbox)
+ This metapackage ensures that the composite packages are installed.
