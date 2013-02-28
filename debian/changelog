@@ -1,3 +1,10 @@
+semplice-meta (3.99.4) unstable; urgency=low
+
+  * Added openbox-feature-composite.
+  * openbox: replaced parcellite with clipit.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 28 Feb 2013 19:40:36 +0100
+
 semplice-meta (3.99.3) unstable; urgency=low
 
   * openbox: replaced volumeicon with volumeicon-alsa.
