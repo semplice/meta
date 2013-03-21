@@ -1,3 +1,9 @@
+semplice-meta (3.99.5) unstable; urgency=low
+
+  * openbox: added bricks.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 22 Mar 2013 00:12:28 +0100
+
 semplice-meta (3.99.4) unstable; urgency=low
 
   * Added openbox-feature-composite.
