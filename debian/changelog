@@ -1,3 +1,12 @@
+semplice-meta (4.0.0) unstable; urgency=low
+
+  * base: added ppp and ntp
+  * base-feature-bluetooth: removed bluez-utils
+  * base-feature-printing: replaced cups-driver-gutenprint with printer-driver-gutenprint
+  * openbox: added gnome-keyring.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 11 Jun 2013 19:49:28 +0200
+
 semplice-meta (3.99.5) unstable; urgency=low
 
   * openbox: added bricks.
