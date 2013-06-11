@@ -1,3 +1,10 @@
+semplice-meta (4.70.0) unstable-devel; urgency=low
+
+  * base-feature-printing: removed printer-all-enforce,
+    instead list every driver package.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 11 Jun 2013 20:05:14 +0200
+
 semplice-meta (4.0.0) unstable; urgency=low
 
   * base: added ppp and ntp
