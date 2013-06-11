@@ -21,3 +21,5 @@ ssh
 readahead-fedora
 locales
 eject
+ppp
+ntp
