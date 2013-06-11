@@ -1,3 +1,9 @@
+semplice-meta (4.70.1) devel; urgency=low
+
+  * This is Semplice 5, ;)
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 11 Jun 2013 21:20:15 +0200
+
 semplice-meta (4.70.0) unstable-devel; urgency=low
 
   * base-feature-printing: removed printer-all-enforce,
