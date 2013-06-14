@@ -1,3 +1,10 @@
+semplice-meta (4.70.2) devel; urgency=low
+
+  * openbox: removed epdfview
+  * openbox-feature-office: added evince-gtk
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 14 Jun 2013 21:08:49 +0200
+
 semplice-meta (4.70.1) devel; urgency=low
 
   * This is Semplice 5, ;)
