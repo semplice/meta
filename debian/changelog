@@ -1,3 +1,12 @@
+semplice-meta (4.70.3) devel; urgency=low
+
+  * base: added lvm2, ntfs-3g, fatresize, dosfstools,
+    hfsprogs, reiser4progs, e2fsprogs and parted
+  * graphical: removed xterm
+  * openbox: removed guake
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 01 Aug 2013 23:07:50 +0200
+
 semplice-meta (4.70.2) devel; urgency=low
 
   * openbox: removed epdfview
