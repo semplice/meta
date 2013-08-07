@@ -1,3 +1,11 @@
+semplice-meta (4.90.0) devel; urgency=low
+
+  * base: depend on cryptsetup.
+  * data/: added the new Semplice 5 codename, 'High Hopes'.
+  * Ship and divert /etc/issue{,.net}
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 07 Aug 2013 13:15:59 +0200
+
 semplice-meta (4.70.3) devel; urgency=low
 
   * base: added lvm2, ntfs-3g, fatresize, dosfstools,
