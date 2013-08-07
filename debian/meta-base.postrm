@@ -14,6 +14,18 @@ remove() {
 		rm -f "/etc/os-release" # that's our link!
 		dpkg-divert --rename --package meta-base --divert "/etc/os-release.distrib" --remove "/etc/os-release"
 	fi
+
+	# Restore issue
+	if [ -e "/etc/issue.distrib" ]; then
+		rm -f "/etc/issue" # that's our link!
+		dpkg-divert --rename --package meta-base --divert "/etc/issue.distrib" --remove "/etc/issue"
+	fi
+
+	# Restore issue.net
+	if [ -e "/etc/issue.net.distrib" ]; then
+		rm -f "/etc/issue.net" # that's our link!
+		dpkg-divert --rename --package meta-base --divert "/etc/issue.net.distrib" --remove "/etc/issue.net"
+	fi
 }
 
 case "$1" in
