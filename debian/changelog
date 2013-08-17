@@ -1,3 +1,10 @@
+semplice-meta (4.90.1) devel; urgency=low
+
+  * Added openbox-feature-oneslip
+  * debian/control: removed dummy system-* packages.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 17 Aug 2013 18:41:18 +0200
+
 semplice-meta (4.90.0) devel; urgency=low
 
   * base: depend on cryptsetup.
