@@ -159,3 +159,11 @@ Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - Composite feature (openbox)
  This metapackage ensures that the composite packages are installed.
+
+Package: meta-openbox-feature-oneslip
+Architecture: i386 amd64 armel
+Description: (Semplice 5 Rollout) - oneslip feature
+ This metapackage ensures a smooth transition to bricks 2.
+ .
+ If you keep this metapackage installed, you'll automatically get
+ the oneslip feature when the Semplice 5 rollout ends.
