@@ -1,3 +1,10 @@
+semplice-meta (4.0.2) unstable; urgency=low
+
+  * Added dummy openbox-feature-oneslip package to make the
+    transition to bricks 2 smoother.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 23 Aug 2013 19:09:40 +0200
+
 semplice-meta (4.0.1) unstable; urgency=low
 
   * openbox: removed epdfview
