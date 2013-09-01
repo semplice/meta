@@ -1,3 +1,10 @@
+semplice-meta (4.90.2) devel; urgency=low
+
+  * base: added mdadm.
+  * graphical: added smbclient and cifs-utils.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 01 Sep 2013 18:22:41 +0200
+
 semplice-meta (4.90.1) devel; urgency=low
 
   * Added openbox-feature-oneslip
