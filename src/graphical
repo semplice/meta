@@ -1,6 +1,7 @@
+cifs-utils
+smbclient
 libnotify-bin
 menu
-xterm
 xserver-xorg
 dmz-cursor-theme
 libgl1-mesa-dri

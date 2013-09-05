@@ -20,14 +20,6 @@ Description: The Semplice Base System
  .
  Is recommended having this package installed.
 
-Package: system-base
-Architecture: i386 amd64 armel
-Depends: meta-base
-Description: Dummy transitional package for meta-base
- This package is a transitional package for meta-base.
- .
- You can safely remove it.
-
 Package: meta-base-graphical
 Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}, meta-base
@@ -37,14 +29,6 @@ Description: The Semplice Graphic Base System
  This package is used to ensure proper updates if the user decided to
  not use the rolling release system.
 
-Package: system-base-graphical
-Architecture: i386 amd64 armel
-Depends: meta-base-graphical
-Description: Dummy transitional package for meta-base-graphical
- This package is a transitional package for meta-base-graphical.
- .
- You can safely remove it.
-
 Package: meta-openbox
 Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-graphical
@@ -53,14 +37,6 @@ Description: The Semplice Openbox System
  .
  This package is used to ensure proper updates if the user decided to not
  use the rolling release system.
-
-Package: system-openbox
-Architecture: i386 amd64 armel
-Depends: meta-openbox
-Description: Dummy transitional package for meta-openbox
- This package is a transitional package for meta-openbox.
- .
- You can safely remove it.
 
 Package: meta-nonfree
 Section: non-free/misc
@@ -73,15 +49,6 @@ Description: The Semplice System - nonfree firmwares
  .
  This package is a metapackage - feel free to remove it.
 
-Package: system-nonfree
-Section: non-free/misc
-Architecture: i386 amd64 armel
-Depends: meta-nonfree
-Description: Dummy transitional package for meta-nonfree
- This package is a transitional package for meta-nonfree.
- .
- You can safely remove it.
-
 Package: meta-raspberrypi
 Section: contrib/misc
 Architecture: armel
@@ -92,15 +59,6 @@ Description: The Semplice System - Raspberry Pi support packages
  board.
  .
  This package is a metapackage - feel free to remove it.
-
-Package: system-raspberrypi
-Section: contrib/misc
-Architecture: armel
-Depends: meta-raspberrypi
-Description: Dummy transitional package for meta-raspberrypi
- This package is a transitional package for meta-raspberrypi.
- .
- You can safely remove it.
  
 Package: meta-openbox-raspberrypi
 Architecture: armel
@@ -111,14 +69,6 @@ Description: The Semplice Openbox System for the Raspberry Pi
  .
  This package is used to ensure proper updates if the user decided to not
  use the rolling release system.
-
-Package: system-openbox-raspberrypi
-Architecture: armel
-Depends: meta-openbox-raspberrypi
-Description: Dummy transitional package for meta-openbox-raspberrypi
- This package is a transitional package for meta-openbox-raspberrypi.
- .
- You can safely remove it.
 
 Package: meta-base-feature-bluetooth
 Architecture: i386 amd64 armel
@@ -162,8 +112,6 @@ Description: The Semplice System - Composite feature (openbox)
 
 Package: meta-openbox-feature-oneslip
 Architecture: i386 amd64 armel
-Description: (Semplice 5 Rollout) - oneslip feature
- This metapackage ensures a smooth transition to bricks 2.
- .
- If you keep this metapackage installed, you'll automatically get
- the oneslip feature when the Semplice 5 rollout ends.
+Depends: ${misc:Depends}, ${germinate:Depends}
+Description: The Semplice System - Web applications feature (openbox)
+ This metapackage ensures that the oneslip packages are installed.

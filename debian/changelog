@@ -1,16 +1,53 @@
-semplice-meta (4.0.2) unstable; urgency=low
+semplice-meta (4.90.2) devel; urgency=low
 
-  * Added dummy openbox-feature-oneslip package to make the
-    transition to bricks 2 smoother.
+  * base: added mdadm.
+  * graphical: added smbclient and cifs-utils.
 
- -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 23 Aug 2013 19:09:40 +0200
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 01 Sep 2013 18:22:41 +0200
 
-semplice-meta (4.0.1) unstable; urgency=low
+semplice-meta (4.90.1) devel; urgency=low
+
+  * Added openbox-feature-oneslip
+  * debian/control: removed dummy system-* packages.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 17 Aug 2013 18:41:18 +0200
+
+semplice-meta (4.90.0) devel; urgency=low
+
+  * base: depend on cryptsetup.
+  * data/: added the new Semplice 5 codename, 'High Hopes'.
+  * Ship and divert /etc/issue{,.net}
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 07 Aug 2013 13:15:59 +0200
+
+semplice-meta (4.70.3) devel; urgency=low
+
+  * base: added lvm2, ntfs-3g, fatresize, dosfstools,
+    hfsprogs, reiser4progs, e2fsprogs and parted
+  * graphical: removed xterm
+  * openbox: removed guake
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 01 Aug 2013 23:07:50 +0200
+
+semplice-meta (4.70.2) devel; urgency=low
 
   * openbox: removed epdfview
   * openbox-feature-office: added evince-gtk
 
- -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 14 Jun 2013 21:06:53 +0200
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 14 Jun 2013 21:08:49 +0200
+
+semplice-meta (4.70.1) devel; urgency=low
+
+  * This is Semplice 5, ;)
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 11 Jun 2013 21:20:15 +0200
+
+semplice-meta (4.70.0) unstable-devel; urgency=low
+
+  * base-feature-printing: removed printer-all-enforce,
+    instead list every driver package.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 11 Jun 2013 20:05:14 +0200
 
 semplice-meta (4.0.0) unstable; urgency=low
 

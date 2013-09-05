@@ -23,3 +23,13 @@ locales
 eject
 ppp
 ntp
+lvm2
+cryptsetup
+ntfs-3g
+fatresize
+dosfstools
+hfsprogs
+reiser4progs
+e2fsprogs
+parted
+mdadm

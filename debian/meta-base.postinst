@@ -12,6 +12,18 @@ configure() {
 		dpkg-divert --rename --package meta-base --divert "/etc/os-release.distrib" --add "/etc/os-release"
 		ln -s "/etc/os-release.semplice" "/etc/os-release"
 	fi
+	
+	# Divert issue
+	if ! [ -e "/etc/issue.distrib" ]; then
+		dpkg-divert --rename --package meta-base --divert "/etc/issue.distrib" --add "/etc/issue"
+		ln -s "/etc/issue.semplice" "/etc/issue"
+	fi
+	
+	# Divert issue.net
+	if ! [ -e "/etc/issue.net.distrib" ]; then
+		dpkg-divert --rename --package meta-base --divert "/etc/issue.net.distrib" --add "/etc/issue.net"
+		ln -s "/etc/issue.net.semplice" "/etc/issue.net"
+	fi
 }
 
 case "$1" in
