@@ -1,3 +1,11 @@
+semplice-meta (5.0.0) unstable; urgency=low
+
+  * base: removed mdadm.
+  * debian/gbp.conf: restored master-worthy configuration.
+  * Upload to current.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 05 Sep 2013 15:14:04 +0200
+
 semplice-meta (4.90.2) devel; urgency=low
 
   * base: added mdadm.
