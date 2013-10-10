@@ -1,4 +1,5 @@
 cups
+cups-daemon
 printer-driver-gutenprint
 foomatic-db-gutenprint
 foomatic-filters
