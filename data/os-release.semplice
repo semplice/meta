@@ -1,7 +1,7 @@
 NAME=Semplice
-VERSION="5"
+VERSION="5.1"
 ID=semplice
-VERSION_ID=5
-PRETTY_NAME="Semplice 5 (High Hopes)"
+VERSION_ID=5.1
+PRETTY_NAME="Semplice 5.1 (High Hopes)"
 HOME_URL="http://semplice-linux.org"
 BUG_REPORT_URL="https://github.com/semplice"
