@@ -1,3 +1,10 @@
+semplice-meta (5.1.0) unstable; urgency=low
+
+  * Semplice 5.1.
+  * Added cups-daemon to base-feature-printing.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 10 Oct 2013 16:02:03 +0200
+
 semplice-meta (5.0.0) unstable; urgency=low
 
   * base: removed mdadm.
