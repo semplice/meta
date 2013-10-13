@@ -3,6 +3,7 @@ cups-daemon
 printer-driver-gutenprint
 foomatic-db-gutenprint
 foomatic-filters
+hplip
 
 printer-driver-c2050
 printer-driver-c2esp
@@ -20,3 +21,4 @@ printer-driver-ptouch
 printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
+hplip-data
