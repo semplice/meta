@@ -1,3 +1,10 @@
+semplice-meta (5.1.2) unstable; urgency=low
+
+  * base-feature-printing: added hplip and hplip-data
+  * openbox-feature-printing: removed hplip.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 13 Oct 2013 14:01:52 +0200
+
 semplice-meta (5.1.1) unstable; urgency=low
 
   * base-feature-bluetooth: depend on bluez.
