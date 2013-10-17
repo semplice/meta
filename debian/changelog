@@ -1,3 +1,9 @@
+semplice-meta (5.1.3) unstable; urgency=low
+
+  * openbox: added udisks.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 17 Oct 2013 18:49:37 +0200
+
 semplice-meta (5.1.2) unstable; urgency=low
 
   * base-feature-printing: added hplip and hplip-data
