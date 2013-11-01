@@ -1,3 +1,21 @@
+semplice-meta (5.20.0) devel; urgency=low
+
+  * This is going to be Semplice 6.
+  * Added graphical-feature-{nvidia,nvidia-legacy,nvidia-preistoric}
+  * base: added systemd.
+    This is less than ideal, as we will ship BOTH sysv-rc and systemd.
+    .
+    Unfortunately due to the current systemd situation in Debian (unable to reliably replace sysv-rc) and in
+    Debian Live (full systemd support in 4.x, which is in experimental), we are going to ship both.
+    The Live system will boot with sysv-rc.
+    .
+    A trivial change to linstaller's bootloader.inst module will be needed to make the installed system boot
+    with systemd.
+    NOTE: This needs to be changed with systemd-sysv AS SOON AS POSSIBLE.
+  * debian/gbp.conf: ensure we work on devel.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 01 Nov 2013 23:44:06 +0100
+
 semplice-meta (5.1.3) unstable; urgency=low
 
   * openbox: added udisks.
