@@ -115,3 +115,33 @@ Architecture: i386 amd64 armel
 Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - Web applications feature (openbox)
  This metapackage ensures that the oneslip packages are installed.
+
+Package: meta-graphical-feature-nvidia
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}
+Description: The Semplice System - nVidia drivers
+ This packages enables the proprietary nVidia drivers in the installed
+ system.
+ .
+ NOTE: It's recommended to install the feature via the Semplice Feature
+ Manager.
+
+Package: meta-graphical-feature-nvidia-legacy
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}
+Description: The Semplice System - nVidia legacy drivers
+ This packages enables the proprietary legacy nVidia drivers in the installed
+ system.
+ .
+ NOTE: It's recommended to install the feature via the Semplice Feature
+ Manager.
+
+Package: meta-graphical-feature-nvidia-preistoric
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}
+Description: The Semplice System - nVidia preistoric drivers
+ This packages enables the proprietary preistoric nVidia drivers in the installed
+ system.
+ .
+ NOTE: It's recommended to install the feature via the Semplice Feature
+ Manager.
