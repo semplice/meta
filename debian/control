@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/semplice/meta.git
 Vcs-Browser: https://github.com/semplice/meta
 
 Package: meta-base
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}
 Conflicts: semplice-desktop (<= 0.2-rocks2), system-base (< 4.0)
 Description: The Semplice Base System 
@@ -21,7 +21,7 @@ Description: The Semplice Base System
  Is recommended having this package installed.
 
 Package: meta-base-graphical
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}, meta-base
 Description: The Semplice Graphic Base System
  This package depends on all packages useful to get a graphical system.
@@ -30,7 +30,7 @@ Description: The Semplice Graphic Base System
  not use the rolling release system.
 
 Package: meta-openbox
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-graphical
 Description: The Semplice Openbox System
  This package depends on all packages that makes a Semplice Openbox System.
@@ -40,7 +40,7 @@ Description: The Semplice Openbox System
 
 Package: meta-nonfree
 Section: non-free/misc
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}
 #Recommends: ${germinate:Recommends}
 Description: The Semplice System - nonfree firmwares
@@ -49,69 +49,48 @@ Description: The Semplice System - nonfree firmwares
  .
  This package is a metapackage - feel free to remove it.
 
-Package: meta-raspberrypi
-Section: contrib/misc
-Architecture: armel
-Depends: ${misc:Depends}, ${germinate:Depends}
-Description: The Semplice System - Raspberry Pi support packages
- This package depends on required packages (non-free and not)
- required to succesfully run Semplice on a Raspberry Pi(TM)
- board.
- .
- This package is a metapackage - feel free to remove it.
- 
-Package: meta-openbox-raspberrypi
-Architecture: armel
-Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-graphical
-Description: The Semplice Openbox System for the Raspberry Pi
- This package depends on all packages that makes a Semplice Openbox System on
- a Raspberry Pi.
- .
- This package is used to ensure proper updates if the user decided to not
- use the rolling release system.
-
 Package: meta-base-feature-bluetooth
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}, meta-base
 Description: The Semplice System - Bluetooth feature
  This metapackage ensures that the packages required to make bluetooth
  work are installed.
 
 Package: meta-openbox-feature-bluetooth
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-feature-bluetooth
 Description: The Semplice System - Bluetooth feature (openbox)
  This metapackage ensures that the packages required to manage bluetooth
  into the openbox environment are installed.
 
 Package: meta-base-feature-printing
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}, meta-base
 Description: The Semplice System - Printing feature
  This metapackage ensures that the packages required to make printing
  work are installed.
 
 Package: meta-openbox-feature-printing
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-feature-printing
 Description: The Semplice System - Printing feature (openbox)
  This metapackage ensures that the packages required to manage printing
  into the openbox environment are installed.
 
 Package: meta-openbox-feature-office
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - Office feature (openbox)
  This metapackage ensures that the office packages are installed.
 
 Package: meta-openbox-feature-composite
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - Composite feature (openbox)
  This metapackage ensures that the composite packages are installed.
 
 Package: meta-openbox-feature-oneslip
-Architecture: i386 amd64 armel
+Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - Web applications feature (openbox)
  This metapackage ensures that the oneslip packages are installed.
