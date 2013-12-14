@@ -1,3 +1,9 @@
+semplice-meta (5.20.3) devel; urgency=low
+
+  * openbox: ship opensnap.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 14 Dec 2013 20:45:23 +0100
+
 semplice-meta (5.20.2) devel; urgency=low
 
   * We do not support armel anymore, Raspberry Pi supported with
