@@ -1,3 +1,9 @@
+semplice-meta (5.20.4) devel; urgency=low
+
+  * openbox: added alan2 (currently alongside alan-legacy).
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 21 Dec 2013 22:14:53 +0100
+
 semplice-meta (5.20.3) devel; urgency=low
 
   * openbox: ship opensnap.
