@@ -1,3 +1,9 @@
+semplice-meta (5.20.5) devel; urgency=low
+
+  * base: depend on zramcfg.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 23 Dec 2013 12:34:28 +0100
+
 semplice-meta (5.20.4) devel; urgency=low
 
   * openbox: added alan2 (currently alongside alan-legacy).
