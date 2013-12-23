@@ -33,3 +33,4 @@ reiser4progs
 e2fsprogs
 parted
 systemd
+zramcfg
