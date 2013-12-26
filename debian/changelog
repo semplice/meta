@@ -1,3 +1,9 @@
+semplice-meta (5.20.6) devel; urgency=low
+
+  * openbox: removed tropez; added tint2-panel-config.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 26 Dec 2013 21:03:28 +0100
+
 semplice-meta (5.20.5) devel; urgency=low
 
   * base: depend on zramcfg.
