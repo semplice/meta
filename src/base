@@ -34,3 +34,5 @@ e2fsprogs
 parted
 systemd
 zramcfg
+lzop
+uksmtools
