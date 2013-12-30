@@ -1,3 +1,9 @@
+semplice-meta (5.20.7) devel; urgency=low
+
+  * base: added lzop and uksmtools.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 30 Dec 2013 15:51:22 +0100
+
 semplice-meta (5.20.6) devel; urgency=low
 
   * openbox: removed tropez; added tint2-panel-config.
