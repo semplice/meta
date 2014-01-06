@@ -40,6 +40,7 @@ mousepad
 gnome-mplayer
 exaile
 chromium
+chromium-l10n
 claws-mail
 gftp
 pidgin
@@ -53,11 +54,9 @@ desktop-file-utils
 xfce4-power-manager
 gksu
 libgnome2-perl
-alan
-alan-config-semplice
 alan2
 alan2-config-semplice
-alan2-reference-watcher
+alan-watcher
 gvfs-backends
 gvfs-fuse
 semplice-utilities
