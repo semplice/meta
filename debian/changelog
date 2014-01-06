@@ -1,3 +1,11 @@
+semplice-meta (5.80.0) devel; urgency=low
+
+  * Update codename to reflect Semplice 6's one.
+  * openbox/: added chromium-l10n and alan-watcher;
+    Removed legacy alan and alan2's reference watcher.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 06 Jan 2014 13:09:19 +0100
+
 semplice-meta (5.20.7) devel; urgency=low
 
   * base: added lzop and uksmtools.
