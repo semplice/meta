@@ -57,6 +57,7 @@ libgnome2-perl
 alan2
 alan2-config-semplice
 alan-watcher
+semplice-menu
 gvfs-backends
 gvfs-fuse
 semplice-utilities
