@@ -1,3 +1,11 @@
+semplice-meta (5.99.0) devel; urgency=low
+
+  * base-feature-printing: remove foomatic-filters.
+  * openbox: added semplice-menu.
+  * data/: lowercase the 'To' in 'Stairway To Heaven'.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 19 Jan 2014 13:21:48 +0100
+
 semplice-meta (5.80.0) devel; urgency=low
 
   * Update codename to reflect Semplice 6's one.
