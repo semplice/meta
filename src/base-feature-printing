@@ -2,7 +2,6 @@ cups
 cups-daemon
 printer-driver-gutenprint
 foomatic-db-gutenprint
-foomatic-filters
 hplip
 
 printer-driver-c2050
