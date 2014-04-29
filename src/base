@@ -33,6 +33,7 @@ reiser4progs
 e2fsprogs
 parted
 systemd
+systemd-sysv
 zramcfg
 lzop
 uksmtools

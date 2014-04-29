@@ -21,7 +21,20 @@ def base_list(obj):
 	
 	obj is an opened file object. """
 	
-	ignore_list = ("debian-multimedia-keyring", "libept0", "libept1", "libxapian5", "liblzma2")
+	ignore_list = (
+		"debian-multimedia-keyring",
+		"libept0",
+		"libept1",
+		"libxapian5",
+		"liblzma2",
+		
+		## FIXME: Due to the systemd transition, we need to blacklist
+		## sysvinit, at least for now.
+		## systemd-sysv is included in the include list.
+		"sysvinit-core",
+		"sysvinit-utils",
+		"sysv-rc",
+	)
 	
 	# Get package list via aptitude
 	package_list = commands.getoutput('aptitude search "~pimportant (?not(?obsolete))" "~prequired (?not(?obsolete))"').split("\n")
