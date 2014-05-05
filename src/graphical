@@ -13,7 +13,6 @@ libfreetype6
 usb-modeswitch
 pm-utils
 apt-xapian-index
-alsa-base
 alsa-utils
 alsa-tools
 ntfs-3g
