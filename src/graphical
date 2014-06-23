@@ -8,7 +8,7 @@ libgl1-mesa-dri
 libgl1-mesa-glx
 x11-xserver-utils
 fontconfig
-libtiff4
+libtiff5
 libfreetype6
 usb-modeswitch
 pm-utils
