@@ -1,3 +1,9 @@
+semplice-meta (6.0.3) unstable; urgency=medium
+
+  * libtiff4 --> libtiff5.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 23 Jun 2014 19:01:08 +0200
+
 semplice-meta (6.0.2) unstable; urgency=medium
 
   * graphical: remove the deprecated alsa-base.
