@@ -1,3 +1,11 @@
+semplice-meta (6.20.0) devel; urgency=medium
+
+  * This is devel, baby!
+  * openbox: removed chromium and chromium-l10n, added iceweasel.
+  * openbox: replaced roxterm-gtk2 with roxterm-gtk3.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 24 Jun 2014 23:28:09 +0200
+
 semplice-meta (6.0.3) unstable; urgency=medium
 
   * libtiff4 --> libtiff5.
