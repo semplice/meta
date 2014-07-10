@@ -21,8 +21,6 @@ network-manager-gnome
 gnome-disk-utility
 synaptic
 menu
-lxappearance
-lxappearance-obconf
 lxrandr
 lxtask
 xscreensaver
@@ -35,7 +33,6 @@ gpaint
 xfburn
 xarchiver
 clipit
-xfce4-screenshooter
 mousepad
 gnome-mplayer
 exaile
@@ -50,7 +47,6 @@ accountsservice
 rsync
 python-progressbar
 desktop-file-utils
-xfce4-power-manager
 gksu
 libgnome2-perl
 alan2
@@ -65,3 +61,6 @@ uget
 gnome-keyring
 tint2-panel-config
 opensnap
+vera
+vera-plugin-openbox
+vera-plugin-power
