@@ -1,3 +1,11 @@
+semplice-meta (6.21.0) devel; urgency=medium
+
+  * openbox: removed lxappearance, lxappearance-obconf
+    xfce4-screenshooter and xfce4-power-manager.
+    Added vera, vera-plugin-openbox and vera-plugin-power.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 10 Jul 2014 20:09:15 +0200
+
 semplice-meta (6.20.0) devel; urgency=medium
 
   * This is devel, baby!
