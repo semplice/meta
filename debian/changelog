@@ -1,3 +1,9 @@
+semplice-meta (6.21.1) devel; urgency=medium
+
+  * vera -> vera-desktop. Sorry but I'm drunk.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 11 Jul 2014 02:33:33 +0200
+
 semplice-meta (6.21.0) devel; urgency=medium
 
   * openbox: removed lxappearance, lxappearance-obconf
