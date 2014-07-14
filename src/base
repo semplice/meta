@@ -18,7 +18,6 @@ pciutils
 usbutils
 semplice-apt-conf
 ssh
-readahead-fedora
 locales
 eject
 ppp
