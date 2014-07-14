@@ -51,7 +51,6 @@ gksu
 libgnome2-perl
 alan2
 alan2-config-semplice
-alan-watcher
 semplice-menu
 gvfs-backends
 gvfs-fuse
@@ -62,5 +61,7 @@ gnome-keyring
 tint2-panel-config
 opensnap
 vera-desktop
+vera-control-center
 vera-plugin-openbox
 vera-plugin-power
+vera-plugin-alan-watcher
