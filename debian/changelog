@@ -1,3 +1,11 @@
+semplice-meta (6.22.0) devel; urgency=medium
+
+  * Semplice 7-preview.
+  * openbox: added vera-control-center and vera-plugin-alan-watcher,
+    removed alan-watcher.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 14 Jul 2014 19:08:48 +0200
+
 semplice-meta (6.21.1) devel; urgency=medium
 
   * vera -> vera-desktop. Sorry but I'm drunk.
