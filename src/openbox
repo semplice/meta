@@ -50,7 +50,7 @@ desktop-file-utils
 gksu
 libgnome2-perl
 alan2
-alan2-config-semplice
+alan2-config-semplice-vera
 semplice-menu
 gvfs-backends
 gvfs-fuse
@@ -65,3 +65,4 @@ vera-control-center
 vera-plugin-openbox
 vera-plugin-power
 vera-plugin-alan-watcher
+tor
