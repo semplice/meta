@@ -4,7 +4,7 @@ volumeicon-alsa
 cymbaline
 python-xlib
 xfce4-notifyd
-pcmanfm
+pcmanfm-semplice
 udisks
 lxshortcut
 tint2
@@ -65,4 +65,5 @@ vera-control-center
 vera-plugin-openbox
 vera-plugin-power
 vera-plugin-alan-watcher
+vera-plugin-tint2
 tor
