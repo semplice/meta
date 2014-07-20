@@ -1,3 +1,9 @@
+semplice-meta (6.22.2) devel; urgency=medium
+
+  * openbox: removed pcmanfm, added pcmanfm-semplice and vera-plugin-tint2.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 21 Jul 2014 00:32:22 +0200
+
 semplice-meta (6.22.1) devel; urgency=medium
 
   * openbox: removed alan2-config-semplice,
