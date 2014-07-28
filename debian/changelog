@@ -1,3 +1,9 @@
+semplice-meta (6.0.4) unstable; urgency=medium
+
+  * Temporairly removed gstreamer0.10-plugins-bad
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 28 Jul 2014 16:44:42 +0200
+
 semplice-meta (6.0.3) unstable; urgency=medium
 
   * libtiff4 --> libtiff5.
