@@ -18,7 +18,6 @@ alsa-tools
 ntfs-3g
 wodim
 gstreamer0.10-nice
-gstreamer0.10-plugins-bad
 gstreamer0.10-plugins-base
 gstreamer0.10-plugins-good
 gstreamer0.10-plugins-ugly
