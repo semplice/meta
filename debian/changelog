@@ -1,3 +1,9 @@
+semplice-meta (6.23.1) devel; urgency=medium
+
+  * germinate doesn't like comments.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 09 Aug 2014 19:59:01 +0200
+
 semplice-meta (6.23.0) devel; urgency=medium
 
   * Added meta-{openbox,base}-feature-pulseaudio.
