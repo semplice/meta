@@ -2,6 +2,6 @@ NAME=Semplice
 VERSION="7"
 ID=semplice
 VERSION_ID=7
-PRETTY_NAME="Semplice 7-preview (Stairway to Heaven)"
+PRETTY_NAME="Semplice 7-preview (Comfortably Numb)"
 HOME_URL="http://semplice-linux.org"
 BUG_REPORT_URL="https://github.com/semplice"
