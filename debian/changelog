@@ -1,3 +1,11 @@
+semplice-meta (6.24.0) devel; urgency=medium
+
+  * Semplice 7 is Comfortably Numb.
+  * Remove tor as we don't have the time to create a proper UI
+    for it currently.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 10 Oct 2014 17:56:47 +0200
+
 semplice-meta (6.23.2) devel; urgency=medium
 
   * openbox: removed keeptalking.
