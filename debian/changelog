@@ -1,3 +1,13 @@
+semplice-meta (6.30.0) devel; urgency=medium
+
+  * base: add thermald.
+  * openbox: replace exaile with pragha.
+  * openbox: remove semplice-artwork and add semplice-zuki-themes,
+    moka-icon-theme, faba-icon-theme and faba-mono-icon-theme.
+  * openbox: remove gnome-system-tools.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 07 Nov 2014 21:51:20 +0100
+
 semplice-meta (6.24.0) devel; urgency=medium
 
   * Semplice 7 is Comfortably Numb.
