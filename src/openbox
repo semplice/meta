@@ -14,7 +14,10 @@ conky
 fortune
 nitrogen
 semplice-openbox-default-settings
-semplice-artwork
+semplice-zuki-themes
+moka-icon-theme
+faba-icon-theme
+faba-mono-icon-theme
 gnome-system-tools
 network-manager-gnome
 gnome-disk-utility
