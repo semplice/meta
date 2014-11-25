@@ -11,7 +11,6 @@ python-gmenu
 gnome-menus
 conky
 fortune
-nitrogen
 fonts-opensans
 semplice-openbox-default-settings
 semplice-artwork-wallpapers-numb
@@ -53,14 +52,12 @@ gksu
 libgnome2-perl
 alan2
 alan2-config-semplice-vera
-semplice-menu
 gvfs-backends
 gvfs-fuse
 semplice-utilities
 gsimplecal
 uget
 gnome-keyring
-tint2-panel-config
 opensnap
 vera-desktop
 vera-control-center
