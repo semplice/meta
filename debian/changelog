@@ -1,3 +1,9 @@
+semplice-meta (6.33.0) devel; urgency=medium
+
+  * openbox and base-feature-pulseaudio: switch to gstreamer 1.0.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 26 Nov 2014 18:28:33 +0100
+
 semplice-meta (6.32.1) devel; urgency=medium
 
   * openbox: remove nitrogen, semplice-menu and tint2-panel-config.
