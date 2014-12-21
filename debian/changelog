@@ -1,3 +1,9 @@
+semplice-meta (6.34.0) devel; urgency=medium
+
+  * graphical: depend on tlp and tlp-rdw.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 21 Dec 2014 23:23:34 +0100
+
 semplice-meta (6.33.0) devel; urgency=medium
 
   * openbox and base-feature-pulseaudio: switch to gstreamer 1.0.
