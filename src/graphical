@@ -28,3 +28,5 @@ network-manager
 modemmanager
 mobile-broadband-provider-info
 upower
+tlp
+tlp-rdw
