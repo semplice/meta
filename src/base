@@ -37,3 +37,6 @@ zramcfg
 lzop
 uksmtools
 thermald
+lm-sensors
+fancontrol
+sensorsd
