@@ -63,6 +63,7 @@ vera-desktop
 vera-control-center
 vera-plugin-desktop
 vera-plugin-openbox
+vera-plugin-openbox-vera-color
 vera-plugin-power
 vera-plugin-alan-watcher
 vera-plugin-tint2
