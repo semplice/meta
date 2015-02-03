@@ -1,3 +1,10 @@
+semplice-meta (6.36.0) devel; urgency=medium
+
+  * graphical: install binfmt-support.
+  * openbox: install vera-plugin-openbox-vera-color.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 03 Feb 2015 23:55:36 +0100
+
 semplice-meta (6.35.0) devel; urgency=medium
 
   * base: install lm-sensors, fancontrol and sensorsd.
