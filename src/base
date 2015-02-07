@@ -39,4 +39,4 @@ uksmtools
 thermald
 lm-sensors
 fancontrol
-sensorsd
+sensord
