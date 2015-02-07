@@ -1,3 +1,10 @@
+semplice-meta (6.37.0) devel; urgency=medium
+
+  * base: sensorsd -> sensord. I'm a fucking moron.
+  * graphical: remove gstreamer ugly plugins.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 07 Feb 2015 17:43:47 +0100
+
 semplice-meta (6.36.0) devel; urgency=medium
 
   * graphical: install binfmt-support.
