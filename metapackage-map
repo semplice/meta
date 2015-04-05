@@ -11,6 +11,8 @@ openbox-feature-printing meta-openbox-feature-printing
 openbox-feature-office meta-openbox-feature-office
 openbox-feature-composite meta-openbox-feature-composite
 openbox-feature-oneslip meta-openbox-feature-oneslip
+base-feature-pulseaudio meta-base-feature-pulseaudio
+openbox-feature-pulseaudio meta-openbox-feature-pulseaudio
 graphical-feature-nvidia meta-graphical-feature-nvidia
 graphical-feature-nvidia-legacy meta-graphical-feature-nvidia-legacy
 graphical-feature-nvidia-preistoric meta-graphical-feature-nvidia-preistoric

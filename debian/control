@@ -95,6 +95,20 @@ Depends: ${misc:Depends}, ${germinate:Depends}
 Description: The Semplice System - Web applications feature (openbox)
  This metapackage ensures that the oneslip packages are installed.
 
+Package: meta-base-feature-pulseaudio
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base
+Description: The Semplice System - Advanced audio support
+ This metapackage ensures that the packages required to enable the
+ advanced audio support are installed.
+
+Package: meta-openbox-feature-pulseaudio
+Architecture: i386 amd64
+Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-feature-pulseaudio
+Description: The Semplice System - Advanced audio support (openbox)
+ This metapackage ensures that the packages required to enable the
+ advanced audio support are installed.
+
 Package: meta-graphical-feature-nvidia
 Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}
