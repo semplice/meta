@@ -1,3 +1,9 @@
+semplice-meta (7.0.1) unstable; urgency=medium
+
+  * Semplice 7.0.1.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 11 Apr 2015 17:34:01 +0200
+
 semplice-meta (7.0.0) unstable; urgency=medium
 
   * openbox: removed pidgin.
