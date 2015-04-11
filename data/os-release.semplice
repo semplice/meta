@@ -1,7 +1,7 @@
 NAME=Semplice
-VERSION="7"
+VERSION="7.0.1"
 ID=semplice
-VERSION_ID=7
-PRETTY_NAME="Semplice 7 (Comfortably Numb)"
+VERSION_ID=7.0.1
+PRETTY_NAME="Semplice 7.0.1 (Comfortably Numb)"
 HOME_URL="http://semplice-linux.org"
 BUG_REPORT_URL="https://github.com/semplice"
