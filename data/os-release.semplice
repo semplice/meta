@@ -1,7 +1,7 @@
-NAME=Semplice
-VERSION="7.0.1"
-ID=semplice
-VERSION_ID=7.0.1
-PRETTY_NAME="Semplice 7.0.1 (Comfortably Numb)"
+NAME=Semplice for Workstations
+VERSION="2015"
+ID=semplice-workstations
+VERSION_ID=2015
+PRETTY_NAME="Semplice for Workstations 2015 (Jethro Tull)"
 HOME_URL="http://semplice-linux.org"
 BUG_REPORT_URL="https://github.com/semplice"
