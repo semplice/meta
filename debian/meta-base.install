@@ -1,6 +1,7 @@
 data/semplice-dedication.rocks /etc
 data/semplice-dedication.emily.beta1 /etc
 data/semplice_version /etc
+data/semplice_variant /etc
 data/lsb-release /etc
 data/os-release.semplice /etc
 data/issue.semplice /etc
