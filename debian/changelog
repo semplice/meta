@@ -1,3 +1,11 @@
+semplice-meta (7.0.2.1~jethro2) jessie; urgency=medium
+
+  * [meta] Added THIS_IS_JETHRO.
+  * [openbox] Remove semplice-artwork-wallpapers-numb, add -jethro
+  * [openbox] Added semplice-default-settings.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 10 Jul 2015 01:28:11 +0200
+
 semplice-meta (7.0.2.1~jethro1) jessie; urgency=medium
 
   * [openbox] Remove gftp, unmaintained.
