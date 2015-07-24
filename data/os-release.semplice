@@ -1,7 +1,7 @@
 NAME=Semplice for Workstations
-VERSION="2015"
+VERSION="2015.1-preview"
 ID=semplice-workstations
 VERSION_ID=2015
-PRETTY_NAME="Semplice for Workstations 2015 (Jethro Tull)"
+PRETTY_NAME="Semplice for Workstations 2015.1-preview (Jethro Tull)"
 HOME_URL="http://semplice-linux.org"
 BUG_REPORT_URL="https://github.com/semplice"
