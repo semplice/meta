@@ -24,6 +24,7 @@ ppp
 ntp
 lvm2
 cryptsetup
+gdisk
 ntfs-3g
 fatresize
 dosfstools
