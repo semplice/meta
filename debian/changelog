@@ -1,3 +1,13 @@
+semplice-meta (7.0.2.2) unstable; urgency=medium
+
+  * [base] Added gdisk.
+  * [openbox] Removed python-gmenu, removed by upstream
+  * [openbox] Removed udisks, removed by upstream
+  * [openbox] Removed gnome-mplayer, removed by upstream
+  * [openbox] Added vera-plugin-desktop-vera-color-gtk{2,3}
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 21 Dec 2015 22:33:43 +0100
+
 semplice-meta (7.0.2.1) unstable; urgency=medium
 
   * [graphical] Added libglib2.0-bin.
