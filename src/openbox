@@ -59,6 +59,8 @@ vera-desktop
 vera-control-center
 vera-control-center-module-updates
 vera-plugin-desktop
+vera-plugin-desktop-vera-color-gtk2
+vera-plugin-desktop-vera-color-gtk3
 vera-plugin-openbox
 vera-plugin-openbox-vera-color
 vera-plugin-power
