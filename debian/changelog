@@ -1,3 +1,9 @@
+semplice-meta (7.20.5) unstable; urgency=medium
+
+  * [data] Updated codename
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 02 Feb 2016 18:37:38 +0100
+
 semplice-meta (7.20.4) unstable; urgency=medium
 
   * [openbox] Removed python-gmenu, removed by upstream
