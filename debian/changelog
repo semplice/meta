@@ -1,3 +1,9 @@
+semplice-meta (7.20.7) unstable; urgency=medium
+
+  * [base] Ignore libxtables10
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 03 Feb 2016 13:01:26 +0100
+
 semplice-meta (7.20.6) unstable; urgency=medium
 
   * [openbox] Replaced xchat with hexchat
