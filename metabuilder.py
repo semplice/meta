@@ -27,7 +27,8 @@ def base_list(obj):
 		"libept1",
 		"libxapian5",
 		"liblzma2",
-		
+		"libxtables10",
+
 		## FIXME: Due to the systemd transition, we need to blacklist
 		## sysvinit, at least for now.
 		## systemd-sysv is included in the include list.
