@@ -16,7 +16,7 @@ bluez-firmware
 firmware-crystalhd
 firmware-libertas
 firmware-myricom
-linux-wlan-ng-firmware
+prism2-usb-firmware-installer
 midisport-firmware
 zd1211-firmware
 
