@@ -1,3 +1,12 @@
+semplice-meta (7.20.8) unstable; urgency=medium
+
+  * [nonfree] Depend on prism2-usb-firmware-installer instead of linux-wlan-ng-firmware
+  * [openbox-feature-printing] Depend on system-config-printer-udev
+  * [packaging] control: change packages section from "misc" to "metapackages"
+  * [semplice-meta] Do not force the installation of firefox-esr (via the iceweasel transitional package)
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 12 Dec 2016 01:22:45 +0100
+
 semplice-meta (7.20.7) unstable; urgency=medium
 
   * [base] Ignore libxtables10
