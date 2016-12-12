@@ -1,5 +1,5 @@
 Source: semplice-meta
-Section: misc
+Section: metapackages
 Priority: optional
 Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Build-Depends: debhelper (>= 7.0.50~), germinate (>= 1.18), python, aptitude
@@ -39,7 +39,7 @@ Description: The Semplice Openbox System
  use the rolling release system.
 
 Package: meta-nonfree
-Section: non-free/misc
+Section: non-free/metapackages
 Architecture: i386 amd64
 Depends: ${misc:Depends}, ${germinate:Depends}
 #Recommends: ${germinate:Recommends}
