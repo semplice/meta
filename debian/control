@@ -31,7 +31,7 @@ Description: The Semplice Graphic Base System
 
 Package: meta-openbox
 Architecture: i386 amd64
-Depends: ${misc:Depends}, ${germinate:Depends}, meta-base-graphical
+Depends: ${misc:Depends}, ${germinate:Depends}, firefox | firefox-esr, meta-base-graphical
 Description: The Semplice Openbox System
  This package depends on all packages that makes a Semplice Openbox System.
  .
