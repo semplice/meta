@@ -22,6 +22,8 @@ def base_list(obj):
 	obj is an opened file object. """
 	
 	ignore_list = (
+		"",
+		"-",
 		"debian-multimedia-keyring",
 		"libept0",
 		"libept1",
